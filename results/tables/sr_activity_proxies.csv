@@ -1,0 +1,11 @@
+# version: CHB v1 (standalone) | generated: 2026-06-17 | seed: 42 | input: transcriptional proxies for SR/Ca functional state (SR-module ensemble, NCX:RYR2 mode ratio, t-tubule axis, RCAN1) per conduction group; linear expression
+group,n_cells,SR_module,RYR2,NCX_SLC8A1,NCX_over_RYR2,BIN1,JPH2,RCAN1
+fetal_SAN_pace,762,104.6394,70.9969,148.5486,2.0923,0.0403,1.8364,0.8463
+fetal_SAN_work,2192,94.1187,67.4984,83.7491,1.2408,0.0515,1.8393,0.4309
+fetal_AVN_pace,1217,48.3229,31.0468,75.9959,2.4478,0.0546,1.5229,1.058
+fetal_AVN_work,5730,99.6834,72.091,208.4981,2.8922,0.0302,2.4585,0.5265
+adult_SAN_pace,490,168.5775,124.9851,59.4554,0.4757,0.0129,1.8487,1.8292
+adult_SAN_work,19190,217.9665,169.2515,48.8335,0.2885,0.0067,2.1728,0.4805
+adult_AVN_pace,310,148.5579,106.6264,47.9668,0.4499,0.0427,1.5159,0.7599
+adult_AVN_work,14507,209.3726,168.8596,79.3501,0.4699,0.0317,2.5472,0.5285
+adult_vCM_bulk,32747,338.6092,300.5571,69.6426,0.2317,0.029,3.1867,0.4617

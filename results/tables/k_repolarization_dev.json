@@ -1,0 +1,219 @@
+{
+  "question": "(1) Does the working myocardium become more IKr-dependent across development? (2) Is the fetal CM a stronger EAD/torsades substrate under a hERG block?",
+  "proxies": "IKr share of repolarizing-K pool + reserve N_eff (IKr dependence/reserve); EAD substrate = reactivatable inward (ICaL Cav1.2[+Cav1.3] + late-Na SCN5A) over outward repolarizing-K reserve. Transcript proxies, NOT measurements of current density or of EADs themselves.",
+  "scope": "Sim 2021 within-study, whole-CM (working-dominated), fetal/child/adult; no node.",
+  "stages": [
+    "fetal",
+    "child",
+    "adult"
+  ],
+  "per_current_genes": {
+    "IKr": [
+      "KCNH2"
+    ],
+    "IKs": [
+      "KCNQ1"
+    ],
+    "IK1": [
+      "KCNJ2",
+      "KCNJ4",
+      "KCNJ12"
+    ],
+    "Ito": [
+      "KCND3",
+      "KCNA4"
+    ],
+    "IKur": [
+      "KCNA5"
+    ],
+    "IKATP": [
+      "KCNJ11",
+      "KCNJ8"
+    ],
+    "IKACh": [
+      "KCNJ5",
+      "KCNJ3"
+    ]
+  },
+  "ead_inward_genes": {
+    "Cav1.2_ICaL": [
+      "CACNA1C"
+    ],
+    "Cav1.3": [
+      "CACNA1D"
+    ],
+    "lateNa": [
+      "SCN5A"
+    ]
+  },
+  "per_gene_tp10k": {
+    "KCNH2": {
+      "fetal": 0.6838482783226649,
+      "child": 0.4027983114559697,
+      "adult": 0.5688453170351397
+    },
+    "KCNQ1": {
+      "fetal": 2.163897147650661,
+      "child": 1.7252179786190245,
+      "adult": 1.5791287267680023
+    },
+    "KCNJ2": {
+      "fetal": 0.45127742417551553,
+      "child": 0.4275707275897342,
+      "adult": 0.5727586901560385
+    },
+    "KCNJ4": {
+      "fetal": 0.09418827788127035,
+      "child": 0.05972994408843208,
+      "adult": 0.05515240363611193
+    },
+    "KCNJ12": {
+      "fetal": 0.06629917431992792,
+      "child": 0.04098640280542809,
+      "adult": 0.09256313554262684
+    },
+    "KCND3": {
+      "fetal": 0.6451884974268667,
+      "child": 1.9088899044038756,
+      "adult": 3.2235220878525777
+    },
+    "KCNA4": {
+      "fetal": 0.06688820752753181,
+      "child": 0.1101548188285958,
+      "adult": 0.2024181639223194
+    },
+    "KCNA5": {
+      "fetal": 0.015040005548583193,
+      "child": 0.002641158917394348,
+      "adult": 0.001160183870428467
+    },
+    "KCNJ11": {
+      "fetal": 0.008561430000466708,
+      "child": 0.008084682190694442,
+      "adult": 0.00843104199378219
+    },
+    "KCNJ8": {
+      "fetal": 0.11963684454834958,
+      "child": 0.32701222220562015,
+      "adult": 0.2117900080064541
+    },
+    "KCNJ5": {
+      "fetal": 0.27919147590277077,
+      "child": 0.08384427925921181,
+      "adult": 0.14697831452668836
+    },
+    "KCNJ3": {
+      "fetal": 0.41997410032530197,
+      "child": 0.13341534467217844,
+      "adult": 0.47573311081182956
+    }
+  },
+  "ead_inward_tp10k": {
+    "CACNA1C": {
+      "fetal": 61.07256949383569,
+      "child": 35.60698278566777,
+      "adult": 40.22532773947522
+    },
+    "CACNA1D": {
+      "fetal": 0.6545112830697642,
+      "child": 0.1292128721286804,
+      "adult": 0.0911169979086198
+    },
+    "SCN5A": {
+      "fetal": 2.9203992144476136,
+      "child": 2.1708272794402244,
+      "adult": 3.9173501985947756
+    }
+  },
+  "per_stage": {
+    "fetal": {
+      "current_tp10k": {
+        "IKr": 0.6838,
+        "IKs": 2.1639,
+        "IK1": 0.6118,
+        "Ito": 0.7121,
+        "IKur": 0.015,
+        "IKATP": 0.1282,
+        "IKACh": 0.6992
+      },
+      "K_pool_tp10k": 5.014,
+      "IKr_share": 0.1364,
+      "reserve_Neff": 4.7309,
+      "nonIKr_pool_tp10k": 4.3301,
+      "IKr_over_nonIKr": 0.1579,
+      "EAD_substrate": {
+        "Cav12_ICaL_tp10k": 61.0726,
+        "Cav13_tp10k": 0.6545,
+        "lateNa_SCN5A_tp10k": 2.9204,
+        "Krepol_outward_tp10k": 5.014,
+        "inward_over_outward_Cav12only": 12.7629,
+        "inward_over_outward_Cav12plus13": 12.8934
+      }
+    },
+    "child": {
+      "current_tp10k": {
+        "IKr": 0.4028,
+        "IKs": 1.7252,
+        "IK1": 0.5283,
+        "Ito": 2.019,
+        "IKur": 0.0026,
+        "IKATP": 0.3351,
+        "IKACh": 0.2173
+      },
+      "K_pool_tp10k": 5.2303,
+      "IKr_share": 0.077,
+      "reserve_Neff": 4.368,
+      "nonIKr_pool_tp10k": 4.8275,
+      "IKr_over_nonIKr": 0.0834,
+      "EAD_substrate": {
+        "Cav12_ICaL_tp10k": 35.607,
+        "Cav13_tp10k": 0.1292,
+        "lateNa_SCN5A_tp10k": 2.1708,
+        "Krepol_outward_tp10k": 5.2303,
+        "inward_over_outward_Cav12only": 7.2228,
+        "inward_over_outward_Cav12plus13": 7.2475
+      }
+    },
+    "adult": {
+      "current_tp10k": {
+        "IKr": 0.5688,
+        "IKs": 1.5791,
+        "IK1": 0.7205,
+        "Ito": 3.4259,
+        "IKur": 0.0012,
+        "IKATP": 0.2202,
+        "IKACh": 0.6227
+      },
+      "K_pool_tp10k": 7.1385,
+      "IKr_share": 0.0797,
+      "reserve_Neff": 4.2233,
+      "nonIKr_pool_tp10k": 6.5696,
+      "IKr_over_nonIKr": 0.0866,
+      "EAD_substrate": {
+        "Cav12_ICaL_tp10k": 40.2253,
+        "Cav13_tp10k": 0.0911,
+        "lateNa_SCN5A_tp10k": 3.9174,
+        "Krepol_outward_tp10k": 7.1385,
+        "inward_over_outward_Cav12only": 6.1838,
+        "inward_over_outward_Cav12plus13": 6.1965
+      }
+    }
+  },
+  "inward_over_outward_by_donor": {
+    "fetal": {
+      "Fetal1": 12.2026,
+      "Fetal2": 14.1946,
+      "Fetal3": 11.3183
+    },
+    "child": {
+      "Young1": 6.8605,
+      "Young2": 7.6166,
+      "Young3": 6.8432
+    },
+    "adult": {
+      "Adult1": 6.3714,
+      "Adult2": 6.7147,
+      "Adult3": 4.2726
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# version: CHB v1 (standalone) | generated: 2026-06-21 | seed: 42 | input: within-ADULT-dataset pacemaker (SAN_P/AVN_P) vs working (vCM) channel-panel contrast (Kanemaru; no cross-dataset confound); expm1 of normalized X, Mann-Whitney + BH-FDR. Cell-type-specificity contrast — pairs with fetal_pacemaker_vs_working for fetal-vs-adult ratio-of-ratios
+node,gene,role,mean_pacemaker,mean_working,log2FC_pace_vs_work,n_pacemaker,n_working,p,fdr
+SAN,CACNA1G,Ca target,0.4656,0.1545,1.5854,490,19190,0.0,0.0
+SAN,CACNA1D,Ca target,19.0103,1.5573,3.6088,490,19190,0.0,0.0
+SAN,CACNA1H,Ca target,0.0124,0.0267,-1.0508,490,19190,0.2819,0.4027
+SAN,CACNA1C,Ca target,40.7932,53.4232,-0.3891,490,19190,0.0,0.0
+SAN,KCNH2,K target (LQT),0.5569,0.5546,0.0059,490,19190,0.5377,0.6721
+SAN,KCNQ1,K target,1.9963,2.3897,-0.2594,490,19190,0.0615,0.1025
+SAN,KCNA4,K target,0.0057,0.0077,-0.3744,490,19190,0.9535,0.9535
+SAN,KCNJ5,K target (AF),0.2978,0.1457,1.026,490,19190,0.0,0.0
+SAN,KCNJ11,K target (VF),0.0322,0.0113,1.4387,490,19190,0.6559,0.7287
+SAN,SCN5A,Na (node-poor test),0.9581,2.5428,-1.4072,490,19190,0.0,0.0
+AVN,CACNA1G,Ca target,0.2834,0.0165,4.0232,310,14507,0.0,0.0
+AVN,CACNA1D,Ca target,6.4564,0.2361,4.7675,310,14507,0.0,0.0
+AVN,CACNA1H,Ca target,0.0,0.0052,-2.6363,310,14507,0.2526,0.2807
+AVN,CACNA1C,Ca target,52.42,72.4174,-0.4662,310,14507,0.0,0.0
+AVN,KCNH2,K target (LQT),0.3215,0.5185,-0.6877,310,14507,0.0288,0.0361
+AVN,KCNQ1,K target,1.9015,2.7246,-0.5187,310,14507,0.0,0.0
+AVN,KCNA4,K target,0.0066,0.0394,-2.4153,310,14507,0.0103,0.0147
+AVN,KCNJ5,K target (AF),0.5145,0.1528,1.7446,310,14507,0.0,0.0
+AVN,KCNJ11,K target (VF),0.001,0.0085,-2.2189,310,14507,0.7458,0.7458
+AVN,SCN5A,Na (node-poor test),0.6485,3.1675,-2.2864,310,14507,0.0,0.0

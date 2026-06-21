@@ -1,0 +1,106 @@
+{
+  "purpose": "Platform-suitability QC vs the '10x under-samples cardiomyocytes' critique.",
+  "scope_note": "No Smart-seq/snRNA dataset of dissected human SAN/AVN exists; pacemaker cells are resolvable only in droplet single-nucleus data, and the adult node specifically only in 10x MULTIOME nuclei (the SAN/AVN regions were Multiome-sequenced; SAN_P/AVN_P have zero 3'-snRNA cells). Cui/Wang STRT corroborate the WHOLE-CM developmental arm; the nodal arm rests on single-nucleus data (size-bias-robust) + the within-donor depth-robustness test below. NOTE: Multiome is droplet snRNA-family, NOT an orthogonal platform \u2014 it is reported in the complexity panel for completeness, not as cross-platform corroboration (that role is Smart-seq, S3).",
+  "A_per_cell_complexity": {
+    "Sim2021_10x": {
+      "median_genes_per_cell": 3354.0,
+      "median_counts_per_cell": 9344.0,
+      "n_cells": 52613,
+      "platform": "10x snRNA"
+    },
+    "Lim_fetalSAN_10x": {
+      "median_genes_per_cell": 2961.0,
+      "median_counts_per_cell": 7035.5,
+      "n_cells": 9272,
+      "platform": "10x snRNA"
+    },
+    "Protze_fetalAVN_10x": {
+      "median_genes_per_cell": 2732.0,
+      "median_counts_per_cell": 6165.0,
+      "n_cells": 13407,
+      "platform": "10x snRNA"
+    },
+    "Kanemaru_adultNodal_Multiome": {
+      "median_genes_per_cell": 2967.5,
+      "median_counts_per_cell": 7519.5,
+      "n_cells": 800,
+      "platform": "10x Multiome (snRNA-family)"
+    },
+    "Wang_adult_STRT": {
+      "platform": "STRT (non-10x)",
+      "median_genes_per_cell": 2641.0,
+      "n_cells": 5229,
+      "median_counts_per_cell": 102326.0
+    },
+    "Cui_fetal_STRT": {
+      "platform": "STRT (non-10x)",
+      "median_genes_per_cell": 3759.0,
+      "n_cells": 4948
+    }
+  },
+  "B_nodal_depth_robustness": {
+    "fetal_SAN": {
+      "depth_band_counts": [
+        4971.5,
+        9915.5
+      ],
+      "n_pace_full": 762,
+      "n_work_full": 2192,
+      "n_pace_matched": 532,
+      "n_work_matched": 1296,
+      "log2fc_full": {
+        "CACNA1D": 1.992,
+        "CACNA1G": 0.072,
+        "KCNH2": -0.271,
+        "SCN5A": -2.064,
+        "HCN4": 1.587
+      },
+      "log2fc_depth_matched": {
+        "CACNA1D": 1.985,
+        "CACNA1G": 0.037,
+        "KCNH2": -0.32,
+        "SCN5A": -2.147,
+        "HCN4": 1.382
+      },
+      "direction_stable": {
+        "CACNA1D": true,
+        "CACNA1G": true,
+        "KCNH2": true,
+        "SCN5A": true,
+        "HCN4": true
+      }
+    },
+    "fetal_AVN": {
+      "depth_band_counts": [
+        2515.6,
+        12213.600000000002
+      ],
+      "n_pace_full": 1217,
+      "n_work_full": 5730,
+      "n_pace_matched": 947,
+      "n_work_matched": 4209,
+      "log2fc_full": {
+        "CACNA1D": 3.937,
+        "CACNA1G": 1.641,
+        "KCNH2": -0.851,
+        "SCN5A": -1.267,
+        "HCN4": 0.657
+      },
+      "log2fc_depth_matched": {
+        "CACNA1D": 4.071,
+        "CACNA1G": 1.526,
+        "KCNH2": -0.985,
+        "SCN5A": -1.439,
+        "HCN4": 0.699
+      },
+      "direction_stable": {
+        "CACNA1D": true,
+        "CACNA1G": true,
+        "KCNH2": true,
+        "SCN5A": true,
+        "HCN4": true
+      }
+    }
+  },
+  "nodal_direction_stable_all": true
+}

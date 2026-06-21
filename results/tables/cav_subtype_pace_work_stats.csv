@@ -1,0 +1,18 @@
+# version: CHB v1 (standalone) | generated: 2026-06-17 | seed: 42 | input: Cav-subtype composition pacemaker-vs-working stats (Fig 1B): per-cell Cav-pool fraction, one-sided MWU pace>work, BH-FDR
+pair,gene,subtype,headline,n_pace_cavpos,n_work_cavpos,mean_frac_pace,mean_frac_work,delta_pace_minus_work,p_one_sided_pace_gt_work,fdr_bh,sig_fdr_0.05
+fetal SAN,CACNA1C,Cav1.2 (L),False,762,2098,0.60969,0.9053,-0.29561,1.0,1.0,False
+fetal SAN,CACNA1D,Cav1.3 (L),True,762,2098,0.37688,0.08205,0.29482,0.0,0.0,True
+fetal SAN,CACNA1G,Cav3.1 (T),True,762,2098,0.01337,0.00996,0.00341,0.30738,0.61475,False
+fetal SAN,CACNA1H,Cav3.2 (T),False,762,2098,7e-05,0.00269,-0.00262,0.97399,1.0,False
+fetal AVN,CACNA1C,Cav1.2 (L),False,1181,5584,0.87839,0.98941,-0.11102,1.0,1.0,False
+fetal AVN,CACNA1D,Cav1.3 (L),True,1181,5584,0.10666,0.0074,0.09926,0.0,0.0,True
+fetal AVN,CACNA1G,Cav3.1 (T),True,1181,5584,0.01495,0.00318,0.01177,0.0,0.0,True
+fetal AVN,CACNA1H,Cav3.2 (T),False,1181,5584,0.0,1e-05,-1e-05,0.82126,1.0,False
+adult SAN,CACNA1C,Cav1.2 (L),False,474,18712,0.69858,0.9552,-0.25661,1.0,1.0,False
+adult SAN,CACNA1D,Cav1.3 (L),True,474,18712,0.27883,0.03934,0.23949,0.0,0.0,True
+adult SAN,CACNA1G,Cav3.1 (T),True,474,18712,0.02243,0.00478,0.01764,0.0,0.0,True
+adult SAN,CACNA1H,Cav3.2 (T),False,474,18712,0.00016,0.00068,-0.00052,0.85653,1.0,False
+adult AVN,CACNA1C,Cav1.2 (L),False,304,14193,0.89695,0.99463,-0.09768,1.0,1.0,False
+adult AVN,CACNA1D,Cav1.3 (L),True,304,14193,0.0989,0.00487,0.09402,0.0,0.0,True
+adult AVN,CACNA1G,Cav3.1 (T),True,304,14193,0.00416,0.00034,0.00381,0.0,0.0,True
+adult AVN,CACNA1H,Cav3.2 (T),False,304,14193,0.0,0.00015,-0.00015,0.87399,1.0,False

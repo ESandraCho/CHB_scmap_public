@@ -1,0 +1,338 @@
+# version: CHB v1 (standalone) | generated: 2026-06-17 | seed: 42 | input: node-resolved fetal-vs-adult channel + Ca-handling expression by SAN/AVN/vCM; linear TP10K, within-dataset
+group,group_label,dataset,n_cells,gene,label,family,mean_tp10k,detect_frac
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,CACNA1C,Cav1.2 (L),Ca channel,31.416,0.9961
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,CACNA1D,Cav1.3 (L),Ca channel,18.4414,0.9843
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,CACNA1G,Cav3.1 (T),Ca channel,0.5713,0.2953
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,CACNA1H,Cav3.2 (T),Ca channel,0.0022,0.0013
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,CACNA1I,Cav3.3 (T),Ca channel,0.002,0.0013
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,SLC8A1,NCX1,Ca handling,148.5486,1.0
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,ATP2A2,SERCA2a,Ca handling,15.5298,0.9921
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,RYR2,RyR2,Ca handling,70.9969,1.0
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,PLN,PLN,Ca handling,5.121,0.8491
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,CASQ2,CASQ2,Ca handling,3.0976,0.7887
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,ATP2B4,PMCA4,Ca handling,5.0678,0.8806
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,CALM1,CaM1,Ca handling,0.3114,0.1745
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,KCNH2,Kv11.1 (IKr),K channel,0.2727,0.1601
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,KCNQ1,Kv7.1 (IKs),K channel,2.2882,0.6942
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,KCNA5,Kv1.5 (IKur),K channel,0.0513,0.0394
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,KCND3,Kv4.3 (Ito),K channel,0.6663,0.2638
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,KCNJ2,Kir2.1 (IK1),K channel,0.0039,0.0026
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,KCNJ3,Kir3.1 (IKACh),K channel,12.1473,0.9751
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,KCNJ5,Kir3.4 (IKACh),K channel,0.2544,0.1365
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,SCN5A,Nav1.5,Na channel,0.47,0.1929
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,ATP1A1,Na/K-ATPase a1,Transporter,1.1521,0.4396
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,HCN4,HCN4 (If),HCN,2.461,0.6942
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,HCN1,HCN1 (If),HCN,15.2456,0.9593
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,GJA5,Cx40 (GJA5),Identity,0.5042,0.206
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,GJC1,Cx45 (GJC1),Identity,1.8641,0.6207
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,TBX3,TBX3,Identity,2.3369,0.4895
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,SHOX2,SHOX2,Identity,2.2034,0.7113
+fetal_SAN_pace,Fetal SAN pacemaker,lim2024_fetal_san,762,ISL1,ISL1,Identity,0.4887,0.2323
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,CACNA1C,Cav1.2 (L),Ca channel,52.1993,0.953
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,CACNA1D,Cav1.3 (L),Ca channel,4.6354,0.6387
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,CACNA1G,Cav3.1 (T),Ca channel,0.5435,0.3043
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,CACNA1H,Cav3.2 (T),Ca channel,0.0084,0.0073
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,CACNA1I,Cav3.3 (T),Ca channel,0.0039,0.0036
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,SLC8A1,NCX1,Ca handling,83.7491,0.9913
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,ATP2A2,SERCA2a,Ca handling,11.21,0.9329
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,RYR2,RyR2,Ca handling,67.4984,0.9973
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,PLN,PLN,Ca handling,3.6871,0.7532
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,CASQ2,CASQ2,Ca handling,2.1996,0.5976
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,ATP2B4,PMCA4,Ca handling,2.8637,0.7774
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,CALM1,CaM1,Ca handling,0.4429,0.2765
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,KCNH2,Kv11.1 (IKr),K channel,0.3293,0.2318
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,KCNQ1,Kv7.1 (IKs),K channel,2.3807,0.7838
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,KCNA5,Kv1.5 (IKur),K channel,0.2146,0.1464
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,KCND3,Kv4.3 (Ito),K channel,0.5002,0.2313
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,KCNJ2,Kir2.1 (IK1),K channel,0.022,0.016
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,KCNJ3,Kir3.1 (IKACh),K channel,6.3928,0.8358
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,KCNJ5,Kir3.4 (IKACh),K channel,0.2692,0.1889
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,SCN5A,Nav1.5,Na channel,1.9683,0.6113
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,ATP1A1,Na/K-ATPase a1,Transporter,0.8763,0.4594
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,HCN4,HCN4 (If),HCN,0.8182,0.4256
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,HCN1,HCN1 (If),HCN,4.0739,0.698
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,GJA5,Cx40 (GJA5),Identity,2.3418,0.6519
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,GJC1,Cx45 (GJC1),Identity,1.9471,0.6505
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,TBX3,TBX3,Identity,0.2265,0.1373
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,SHOX2,SHOX2,Identity,0.8498,0.3472
+fetal_SAN_work,Fetal SAN working,lim2024_fetal_san,2192,ISL1,ISL1,Identity,0.0135,0.0109
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,CACNA1C,Cav1.2 (L),Ca channel,38.9397,0.9638
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,CACNA1D,Cav1.3 (L),Ca channel,5.203,0.5727
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,CACNA1G,Cav3.1 (T),Ca channel,0.4361,0.2112
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,CACNA1H,Cav3.2 (T),Ca channel,0.0,0.0
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,CACNA1I,Cav3.3 (T),Ca channel,0.0039,0.0025
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,SLC8A1,NCX1,Ca handling,75.9959,0.8948
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,ATP2A2,SERCA2a,Ca handling,5.6248,0.7001
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,RYR2,RyR2,Ca handling,31.0468,0.9433
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,PLN,PLN,Ca handling,3.0802,0.5933
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,CASQ2,CASQ2,Ca handling,1.8155,0.4404
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,ATP2B4,PMCA4,Ca handling,3.1991,0.7108
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,CALM1,CaM1,Ca handling,0.6882,0.2835
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,KCNH2,Kv11.1 (IKr),K channel,0.2073,0.1183
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,KCNQ1,Kv7.1 (IKs),K channel,2.3601,0.6253
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,KCNA5,Kv1.5 (IKur),K channel,0.0456,0.0304
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,KCND3,Kv4.3 (Ito),K channel,0.3657,0.1471
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,KCNJ2,Kir2.1 (IK1),K channel,0.0542,0.0378
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,KCNJ3,Kir3.1 (IKACh),K channel,3.6316,0.5004
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,KCNJ5,Kir3.4 (IKACh),K channel,0.2217,0.1274
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,SCN5A,Nav1.5,Na channel,0.6505,0.2013
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,ATP1A1,Na/K-ATPase a1,Transporter,1.9357,0.4322
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,HCN4,HCN4 (If),HCN,0.485,0.2202
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,HCN1,HCN1 (If),HCN,2.084,0.3237
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,GJA5,Cx40 (GJA5),Identity,0.4488,0.1832
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,GJC1,Cx45 (GJC1),Identity,2.3303,0.567
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,TBX3,TBX3,Identity,0.9866,0.2975
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,SHOX2,SHOX2,Identity,0.1503,0.0698
+fetal_AVN_pace,Fetal AVN pacemaker,lim2024_fetal_avn,1217,ISL1,ISL1,Identity,0.0062,0.0033
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,CACNA1C,Cav1.2 (L),Ca channel,70.9296,0.9733
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,CACNA1D,Cav1.3 (L),Ca channel,0.3388,0.0909
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,CACNA1G,Cav3.1 (T),Ca channel,0.1392,0.0684
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,CACNA1H,Cav3.2 (T),Ca channel,0.0007,0.0007
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,CACNA1I,Cav3.3 (T),Ca channel,0.0026,0.0019
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,SLC8A1,NCX1,Ca handling,208.4981,0.9885
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,ATP2A2,SERCA2a,Ca handling,5.6051,0.8447
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,RYR2,RyR2,Ca handling,72.091,0.9818
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,PLN,PLN,Ca handling,5.9969,0.8393
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,CASQ2,CASQ2,Ca handling,4.005,0.7914
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,ATP2B4,PMCA4,Ca handling,2.848,0.6874
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,CALM1,CaM1,Ca handling,0.8328,0.3366
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,KCNH2,Kv11.1 (IKr),K channel,0.3747,0.2281
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,KCNQ1,Kv7.1 (IKs),K channel,2.0754,0.6665
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,KCNA5,Kv1.5 (IKur),K channel,0.0512,0.0279
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,KCND3,Kv4.3 (Ito),K channel,0.4183,0.1756
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,KCNJ2,Kir2.1 (IK1),K channel,0.4792,0.2504
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,KCNJ3,Kir3.1 (IKACh),K channel,0.8381,0.1391
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,KCNJ5,Kir3.4 (IKACh),K channel,0.275,0.186
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,SCN5A,Nav1.5,Na channel,1.5665,0.5208
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,ATP1A1,Na/K-ATPase a1,Transporter,1.3289,0.5304
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,HCN4,HCN4 (If),HCN,0.3072,0.1857
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,HCN1,HCN1 (If),HCN,0.6225,0.1396
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,GJA5,Cx40 (GJA5),Identity,0.6019,0.2084
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,GJC1,Cx45 (GJC1),Identity,1.5988,0.574
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,TBX3,TBX3,Identity,0.2345,0.108
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,SHOX2,SHOX2,Identity,0.0309,0.0122
+fetal_AVN_work,Fetal AVN working,lim2024_fetal_avn,5730,ISL1,ISL1,Identity,0.0024,0.0019
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,CACNA1C,Cav1.2 (L),Ca channel,40.7932,0.9347
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,CACNA1D,Cav1.3 (L),Ca channel,19.0103,0.8082
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,CACNA1G,Cav3.1 (T),Ca channel,0.4656,0.1878
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,CACNA1H,Cav3.2 (T),Ca channel,0.0124,0.0163
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,CACNA1I,Cav3.3 (T),Ca channel,0.002,0.0041
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,SLC8A1,NCX1,Ca handling,59.4554,0.9551
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,ATP2A2,SERCA2a,Ca handling,13.746,0.9347
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,RYR2,RyR2,Ca handling,124.9851,0.9592
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,PLN,PLN,Ca handling,6.7702,0.8653
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,CASQ2,CASQ2,Ca handling,4.4643,0.7918
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,ATP2B4,PMCA4,Ca handling,4.2162,0.8082
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,CALM1,CaM1,Ca handling,0.7182,0.3755
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,KCNH2,Kv11.1 (IKr),K channel,0.5569,0.3306
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,KCNQ1,Kv7.1 (IKs),K channel,1.9963,0.6449
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,KCNA5,Kv1.5 (IKur),K channel,0.0374,0.0449
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,KCND3,Kv4.3 (Ito),K channel,3.1083,0.6898
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,KCNJ2,Kir2.1 (IK1),K channel,0.0205,0.0286
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,KCNJ3,Kir3.1 (IKACh),K channel,22.6062,0.9347
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,KCNJ5,Kir3.4 (IKACh),K channel,0.2978,0.2
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,SCN5A,Nav1.5,Na channel,0.9581,0.3551
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,ATP1A1,Na/K-ATPase a1,Transporter,1.009,0.5143
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,HCN4,HCN4 (If),HCN,1.0175,0.4
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,HCN1,HCN1 (If),HCN,10.3407,0.7551
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,GJA5,Cx40 (GJA5),Identity,0.0653,0.049
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,GJC1,Cx45 (GJC1),Identity,0.9523,0.4735
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,TBX3,TBX3,Identity,1.875,0.5224
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,SHOX2,SHOX2,Identity,0.4507,0.2367
+adult_SAN_pace,Adult SAN pacemaker,kanemaru_conduction,490,ISL1,ISL1,Identity,0.4246,0.1429
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,CACNA1C,Cav1.2 (L),Ca channel,53.423,0.969
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,CACNA1D,Cav1.3 (L),Ca channel,1.5573,0.5128
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,CACNA1G,Cav3.1 (T),Ca channel,0.1545,0.1028
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,CACNA1H,Cav3.2 (T),Ca channel,0.0267,0.0237
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,CACNA1I,Cav3.3 (T),Ca channel,0.003,0.003
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,SLC8A1,NCX1,Ca handling,48.8335,0.9688
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,ATP2A2,SERCA2a,Ca handling,18.5676,0.9598
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,RYR2,RyR2,Ca handling,169.2518,0.9913
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,PLN,PLN,Ca handling,5.5036,0.8419
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,CASQ2,CASQ2,Ca handling,4.4816,0.7918
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,ATP2B4,PMCA4,Ca handling,2.7122,0.6884
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,CALM1,CaM1,Ca handling,0.7778,0.4057
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,KCNH2,Kv11.1 (IKr),K channel,0.5546,0.3404
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,KCNQ1,Kv7.1 (IKs),K channel,2.3897,0.6749
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,KCNA5,Kv1.5 (IKur),K channel,0.1472,0.1073
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,KCND3,Kv4.3 (Ito),K channel,5.0307,0.8061
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,KCNJ2,Kir2.1 (IK1),K channel,0.0341,0.0301
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,KCNJ3,Kir3.1 (IKACh),K channel,13.4238,0.9048
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,KCNJ5,Kir3.4 (IKACh),K channel,0.1457,0.1152
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,SCN5A,Nav1.5,Na channel,2.5427,0.7028
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,ATP1A1,Na/K-ATPase a1,Transporter,1.5494,0.5002
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,HCN4,HCN4 (If),HCN,0.3361,0.2226
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,HCN1,HCN1 (If),HCN,5.3209,0.6709
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,GJA5,Cx40 (GJA5),Identity,0.348,0.1766
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,GJC1,Cx45 (GJC1),Identity,0.5545,0.3235
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,TBX3,TBX3,Identity,0.1136,0.0888
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,SHOX2,SHOX2,Identity,0.0824,0.0642
+adult_SAN_work,Adult SAN working,kanemaru_conduction,19190,ISL1,ISL1,Identity,0.0047,0.0019
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,CACNA1C,Cav1.2 (L),Ca channel,52.42,0.9806
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,CACNA1D,Cav1.3 (L),Ca channel,6.4564,0.5935
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,CACNA1G,Cav3.1 (T),Ca channel,0.2834,0.1806
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,CACNA1H,Cav3.2 (T),Ca channel,0.0,0.0
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,CACNA1I,Cav3.3 (T),Ca channel,0.0,0.0
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,SLC8A1,NCX1,Ca handling,47.9668,0.9677
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,ATP2A2,SERCA2a,Ca handling,12.9024,0.9419
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,RYR2,RyR2,Ca handling,106.6264,0.9806
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,PLN,PLN,Ca handling,5.3598,0.8258
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,CASQ2,CASQ2,Ca handling,5.0321,0.7032
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,ATP2B4,PMCA4,Ca handling,8.8955,0.929
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,CALM1,CaM1,Ca handling,0.6485,0.4065
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,KCNH2,Kv11.1 (IKr),K channel,0.3215,0.2516
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,KCNQ1,Kv7.1 (IKs),K channel,1.9015,0.6774
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,KCNA5,Kv1.5 (IKur),K channel,0.0139,0.0258
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,KCND3,Kv4.3 (Ito),K channel,2.6519,0.5742
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,KCNJ2,Kir2.1 (IK1),K channel,0.0189,0.0516
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,KCNJ3,Kir3.1 (IKACh),K channel,8.5315,0.7871
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,KCNJ5,Kir3.4 (IKACh),K channel,0.5145,0.2387
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,SCN5A,Nav1.5,Na channel,0.6485,0.3097
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,ATP1A1,Na/K-ATPase a1,Transporter,1.9609,0.6194
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,HCN4,HCN4 (If),HCN,0.4912,0.2839
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,HCN1,HCN1 (If),HCN,3.5776,0.4903
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,GJA5,Cx40 (GJA5),Identity,0.1686,0.071
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,GJC1,Cx45 (GJC1),Identity,0.917,0.4581
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,TBX3,TBX3,Identity,1.9764,0.5484
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,SHOX2,SHOX2,Identity,0.1133,0.0774
+adult_AVN_pace,Adult AVN pacemaker,kanemaru_conduction,310,ISL1,ISL1,Identity,0.0,0.0
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,CACNA1C,Cav1.2 (L),Ca channel,72.4173,0.9777
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,CACNA1D,Cav1.3 (L),Ca channel,0.2361,0.1033
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,CACNA1G,Cav3.1 (T),Ca channel,0.0165,0.0124
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,CACNA1H,Cav3.2 (T),Ca channel,0.0052,0.0042
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,CACNA1I,Cav3.3 (T),Ca channel,0.0021,0.001
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,SLC8A1,NCX1,Ca handling,79.3501,0.9831
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,ATP2A2,SERCA2a,Ca handling,12.6842,0.9348
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,RYR2,RyR2,Ca handling,168.8598,0.9919
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,PLN,PLN,Ca handling,8.4375,0.9114
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,CASQ2,CASQ2,Ca handling,3.9055,0.7827
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,ATP2B4,PMCA4,Ca handling,4.057,0.7602
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,CALM1,CaM1,Ca handling,0.9046,0.4184
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,KCNH2,Kv11.1 (IKr),K channel,0.5185,0.2933
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,KCNQ1,Kv7.1 (IKs),K channel,2.7246,0.7157
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,KCNA5,Kv1.5 (IKur),K channel,0.0065,0.0061
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,KCND3,Kv4.3 (Ito),K channel,3.1836,0.7
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,KCNJ2,Kir2.1 (IK1),K channel,0.3901,0.2344
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,KCNJ3,Kir3.1 (IKACh),K channel,1.1162,0.112
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,KCNJ5,Kir3.4 (IKACh),K channel,0.1528,0.0862
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,SCN5A,Nav1.5,Na channel,3.1675,0.6595
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,ATP1A1,Na/K-ATPase a1,Transporter,1.33,0.4814
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,HCN4,HCN4 (If),HCN,0.1246,0.0944
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,HCN1,HCN1 (If),HCN,0.3173,0.0854
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,GJA5,Cx40 (GJA5),Identity,0.0145,0.0119
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,GJC1,Cx45 (GJC1),Identity,0.268,0.1743
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,TBX3,TBX3,Identity,0.293,0.1818
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,SHOX2,SHOX2,Identity,0.0151,0.0127
+adult_AVN_work,Adult AVN working,kanemaru_conduction,14507,ISL1,ISL1,Identity,0.0003,0.0002
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,CACNA1C,Cav1.2 (L),Ca channel,61.9098,0.9874
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,CACNA1D,Cav1.3 (L),Ca channel,0.0779,0.0654
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,CACNA1G,Cav3.1 (T),Ca channel,0.01,0.0111
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,CACNA1H,Cav3.2 (T),Ca channel,0.0121,0.0112
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,CACNA1I,Cav3.3 (T),Ca channel,0.0023,0.0021
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,SLC8A1,NCX1,Ca handling,69.6427,0.9897
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,ATP2A2,SERCA2a,Ca handling,10.0524,0.9449
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,RYR2,RyR2,Ca handling,300.5584,0.9981
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,PLN,PLN,Ca handling,10.4836,0.9522
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,CASQ2,CASQ2,Ca handling,3.9206,0.8365
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,ATP2B4,PMCA4,Ca handling,2.2843,0.6519
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,CALM1,CaM1,Ca handling,0.8306,0.426
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,KCNH2,Kv11.1 (IKr),K channel,0.5083,0.3348
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,KCNQ1,Kv7.1 (IKs),K channel,1.6545,0.6407
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,KCNA5,Kv1.5 (IKur),K channel,0.0008,0.0005
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,KCND3,Kv4.3 (Ito),K channel,3.6527,0.8033
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,KCNJ2,Kir2.1 (IK1),K channel,0.4611,0.3092
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,KCNJ3,Kir3.1 (IKACh),K channel,0.308,0.0816
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,KCNJ5,Kir3.4 (IKACh),K channel,0.0539,0.0465
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,SCN5A,Nav1.5,Na channel,2.796,0.7561
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,ATP1A1,Na/K-ATPase a1,Transporter,0.7826,0.3775
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,HCN4,HCN4 (If),HCN,0.0471,0.0417
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,HCN1,HCN1 (If),HCN,0.0311,0.0183
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,GJA5,Cx40 (GJA5),Identity,0.0262,0.0142
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,GJC1,Cx45 (GJC1),Identity,0.2407,0.1695
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,TBX3,TBX3,Identity,0.0529,0.0447
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,SHOX2,SHOX2,Identity,0.0003,0.0003
+adult_vCM,Adult vCM (bulk vent.),kanemaru_conduction,32747,ISL1,ISL1,Identity,0.0001,0.0001
+sim_fetal_CM,Sim fetal CM,sim2021,19464,CACNA1C,Cav1.2 (L),Ca channel,61.0724,0.988
+sim_fetal_CM,Sim fetal CM,sim2021,19464,CACNA1D,Cav1.3 (L),Ca channel,0.6545,0.1746
+sim_fetal_CM,Sim fetal CM,sim2021,19464,CACNA1G,Cav3.1 (T),Ca channel,0.0866,0.0688
+sim_fetal_CM,Sim fetal CM,sim2021,19464,CACNA1H,Cav3.2 (T),Ca channel,0.0013,0.0018
+sim_fetal_CM,Sim fetal CM,sim2021,19464,CACNA1I,Cav3.3 (T),Ca channel,0.0049,0.0046
+sim_fetal_CM,Sim fetal CM,sim2021,19464,SLC8A1,NCX1,Ca handling,212.5456,0.9969
+sim_fetal_CM,Sim fetal CM,sim2021,19464,ATP2A2,SERCA2a,Ca handling,6.748,0.9617
+sim_fetal_CM,Sim fetal CM,sim2021,19464,RYR2,RyR2,Ca handling,94.0316,0.9931
+sim_fetal_CM,Sim fetal CM,sim2021,19464,PLN,PLN,Ca handling,5.1029,0.9267
+sim_fetal_CM,Sim fetal CM,sim2021,19464,CASQ2,CASQ2,Ca handling,5.1982,0.954
+sim_fetal_CM,Sim fetal CM,sim2021,19464,ATP2B4,PMCA4,Ca handling,2.8184,0.8114
+sim_fetal_CM,Sim fetal CM,sim2021,19464,CALM1,CaM1,Ca handling,0.4984,0.3625
+sim_fetal_CM,Sim fetal CM,sim2021,19464,KCNH2,Kv11.1 (IKr),K channel,0.6838,0.4999
+sim_fetal_CM,Sim fetal CM,sim2021,19464,KCNQ1,Kv7.1 (IKs),K channel,2.1639,0.8271
+sim_fetal_CM,Sim fetal CM,sim2021,19464,KCNA5,Kv1.5 (IKur),K channel,0.015,0.015
+sim_fetal_CM,Sim fetal CM,sim2021,19464,KCND3,Kv4.3 (Ito),K channel,0.6452,0.319
+sim_fetal_CM,Sim fetal CM,sim2021,19464,KCNJ2,Kir2.1 (IK1),K channel,0.4513,0.3441
+sim_fetal_CM,Sim fetal CM,sim2021,19464,KCNJ3,Kir3.1 (IKACh),K channel,0.42,0.0671
+sim_fetal_CM,Sim fetal CM,sim2021,19464,KCNJ5,Kir3.4 (IKACh),K channel,0.2792,0.254
+sim_fetal_CM,Sim fetal CM,sim2021,19464,SCN5A,Nav1.5,Na channel,2.9204,0.8201
+sim_fetal_CM,Sim fetal CM,sim2021,19464,ATP1A1,Na/K-ATPase a1,Transporter,1.2061,0.6524
+sim_fetal_CM,Sim fetal CM,sim2021,19464,HCN4,HCN4 (If),HCN,0.4291,0.3355
+sim_fetal_CM,Sim fetal CM,sim2021,19464,HCN1,HCN1 (If),HCN,0.3444,0.1093
+sim_fetal_CM,Sim fetal CM,sim2021,19464,GJA5,Cx40 (GJA5),Identity,0.3721,0.2124
+sim_fetal_CM,Sim fetal CM,sim2021,19464,GJC1,Cx45 (GJC1),Identity,1.18,0.6228
+sim_fetal_CM,Sim fetal CM,sim2021,19464,TBX3,TBX3,Identity,0.0768,0.0651
+sim_fetal_CM,Sim fetal CM,sim2021,19464,SHOX2,SHOX2,Identity,0.0202,0.011
+sim_fetal_CM,Sim fetal CM,sim2021,19464,ISL1,ISL1,Identity,0.002,0.001
+sim_child_CM,Sim child CM,sim2021,5420,CACNA1C,Cav1.2 (L),Ca channel,35.6069,0.8777
+sim_child_CM,Sim child CM,sim2021,5420,CACNA1D,Cav1.3 (L),Ca channel,0.1292,0.1017
+sim_child_CM,Sim child CM,sim2021,5420,CACNA1G,Cav3.1 (T),Ca channel,0.006,0.005
+sim_child_CM,Sim child CM,sim2021,5420,CACNA1H,Cav3.2 (T),Ca channel,0.0659,0.014
+sim_child_CM,Sim child CM,sim2021,5420,CACNA1I,Cav3.3 (T),Ca channel,0.0029,0.0054
+sim_child_CM,Sim child CM,sim2021,5420,SLC8A1,NCX1,Ca handling,56.453,0.8306
+sim_child_CM,Sim child CM,sim2021,5420,ATP2A2,SERCA2a,Ca handling,8.2568,0.7766
+sim_child_CM,Sim child CM,sim2021,5420,RYR2,RyR2,Ca handling,129.1204,0.9661
+sim_child_CM,Sim child CM,sim2021,5420,PLN,PLN,Ca handling,2.8828,0.6589
+sim_child_CM,Sim child CM,sim2021,5420,CASQ2,CASQ2,Ca handling,1.9744,0.6341
+sim_child_CM,Sim child CM,sim2021,5420,ATP2B4,PMCA4,Ca handling,2.1205,0.5616
+sim_child_CM,Sim child CM,sim2021,5420,CALM1,CaM1,Ca handling,1.0416,0.4494
+sim_child_CM,Sim child CM,sim2021,5420,KCNH2,Kv11.1 (IKr),K channel,0.4028,0.3253
+sim_child_CM,Sim child CM,sim2021,5420,KCNQ1,Kv7.1 (IKs),K channel,1.7252,0.5959
+sim_child_CM,Sim child CM,sim2021,5420,KCNA5,Kv1.5 (IKur),K channel,0.0026,0.0007
+sim_child_CM,Sim child CM,sim2021,5420,KCND3,Kv4.3 (Ito),K channel,1.9089,0.5792
+sim_child_CM,Sim child CM,sim2021,5420,KCNJ2,Kir2.1 (IK1),K channel,0.4276,0.3336
+sim_child_CM,Sim child CM,sim2021,5420,KCNJ3,Kir3.1 (IKACh),K channel,0.1334,0.0245
+sim_child_CM,Sim child CM,sim2021,5420,KCNJ5,Kir3.4 (IKACh),K channel,0.0838,0.0946
+sim_child_CM,Sim child CM,sim2021,5420,SCN5A,Nav1.5,Na channel,2.1708,0.5904
+sim_child_CM,Sim child CM,sim2021,5420,ATP1A1,Na/K-ATPase a1,Transporter,1.5164,0.5625
+sim_child_CM,Sim child CM,sim2021,5420,HCN4,HCN4 (If),HCN,0.0875,0.1048
+sim_child_CM,Sim child CM,sim2021,5420,HCN1,HCN1 (If),HCN,0.4306,0.1849
+sim_child_CM,Sim child CM,sim2021,5420,GJA5,Cx40 (GJA5),Identity,0.4763,0.2391
+sim_child_CM,Sim child CM,sim2021,5420,GJC1,Cx45 (GJC1),Identity,0.3802,0.214
+sim_child_CM,Sim child CM,sim2021,5420,TBX3,TBX3,Identity,0.1725,0.126
+sim_child_CM,Sim child CM,sim2021,5420,SHOX2,SHOX2,Identity,0.0074,0.0013
+sim_child_CM,Sim child CM,sim2021,5420,ISL1,ISL1,Identity,0.0,0.0
+sim_adult_CM,Sim adult CM,sim2021,2599,CACNA1C,Cav1.2 (L),Ca channel,40.2253,0.9715
+sim_adult_CM,Sim adult CM,sim2021,2599,CACNA1D,Cav1.3 (L),Ca channel,0.0911,0.192
+sim_adult_CM,Sim adult CM,sim2021,2599,CACNA1G,Cav3.1 (T),Ca channel,0.0101,0.0204
+sim_adult_CM,Sim adult CM,sim2021,2599,CACNA1H,Cav3.2 (T),Ca channel,0.0167,0.0177
+sim_adult_CM,Sim adult CM,sim2021,2599,CACNA1I,Cav3.3 (T),Ca channel,0.0052,0.0154
+sim_adult_CM,Sim adult CM,sim2021,2599,SLC8A1,NCX1,Ca handling,72.1295,0.9754
+sim_adult_CM,Sim adult CM,sim2021,2599,ATP2A2,SERCA2a,Ca handling,7.1035,0.9527
+sim_adult_CM,Sim adult CM,sim2021,2599,RYR2,RyR2,Ca handling,201.8486,0.9888
+sim_adult_CM,Sim adult CM,sim2021,2599,PLN,PLN,Ca handling,3.2856,0.9254
+sim_adult_CM,Sim adult CM,sim2021,2599,CASQ2,CASQ2,Ca handling,3.5921,0.9277
+sim_adult_CM,Sim adult CM,sim2021,2599,ATP2B4,PMCA4,Ca handling,1.5333,0.758
+sim_adult_CM,Sim adult CM,sim2021,2599,CALM1,CaM1,Ca handling,0.798,0.6783
+sim_adult_CM,Sim adult CM,sim2021,2599,KCNH2,Kv11.1 (IKr),K channel,0.5688,0.6225
+sim_adult_CM,Sim adult CM,sim2021,2599,KCNQ1,Kv7.1 (IKs),K channel,1.5791,0.8288
+sim_adult_CM,Sim adult CM,sim2021,2599,KCNA5,Kv1.5 (IKur),K channel,0.0012,0.0027
+sim_adult_CM,Sim adult CM,sim2021,2599,KCND3,Kv4.3 (Ito),K channel,3.2235,0.8884
+sim_adult_CM,Sim adult CM,sim2021,2599,KCNJ2,Kir2.1 (IK1),K channel,0.5728,0.6037
+sim_adult_CM,Sim adult CM,sim2021,2599,KCNJ3,Kir3.1 (IKACh),K channel,0.4757,0.1231
+sim_adult_CM,Sim adult CM,sim2021,2599,KCNJ5,Kir3.4 (IKACh),K channel,0.147,0.2382
+sim_adult_CM,Sim adult CM,sim2021,2599,SCN5A,Nav1.5,Na channel,3.9173,0.9096
+sim_adult_CM,Sim adult CM,sim2021,2599,ATP1A1,Na/K-ATPase a1,Transporter,1.3249,0.803
+sim_adult_CM,Sim adult CM,sim2021,2599,HCN4,HCN4 (If),HCN,0.0796,0.1447
+sim_adult_CM,Sim adult CM,sim2021,2599,HCN1,HCN1 (If),HCN,0.1542,0.1974
+sim_adult_CM,Sim adult CM,sim2021,2599,GJA5,Cx40 (GJA5),Identity,0.1613,0.1558
+sim_adult_CM,Sim adult CM,sim2021,2599,GJC1,Cx45 (GJC1),Identity,0.2666,0.3497
+sim_adult_CM,Sim adult CM,sim2021,2599,TBX3,TBX3,Identity,0.1448,0.227
+sim_adult_CM,Sim adult CM,sim2021,2599,SHOX2,SHOX2,Identity,0.0002,0.0004
+sim_adult_CM,Sim adult CM,sim2021,2599,ISL1,ISL1,Identity,0.0,0.0

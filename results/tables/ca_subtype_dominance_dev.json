@@ -1,0 +1,380 @@
+{
+  "question": "Does the dominant functioning cardiac Ca subtype change across development?",
+  "answer": "Workhorse Cav1.2 (CACNA1C) dominant at all stages (~99% of L-type); anti-Ro targets Cav1.3/Cav3.1 are minor/specialized & decline; real shift = Ca-handling mode (sarcolemmal->SR, RYR2 ~2x).",
+  "per_gene": {
+    "CACNA1C": {
+      "fetal": {
+        "mean_tp10k": 61.07256949383569,
+        "pct_expr": 98.79778051787916
+      },
+      "child": {
+        "mean_tp10k": 35.60698278566777,
+        "pct_expr": 87.76752767527675
+      },
+      "adult": {
+        "mean_tp10k": 40.22532773947522,
+        "pct_expr": 97.15275105809927
+      }
+    },
+    "CACNA1D": {
+      "fetal": {
+        "mean_tp10k": 0.6545112830697642,
+        "pct_expr": 17.457870941224826
+      },
+      "child": {
+        "mean_tp10k": 0.1292128721286804,
+        "pct_expr": 10.166051660516604
+      },
+      "adult": {
+        "mean_tp10k": 0.0911169979086198,
+        "pct_expr": 19.199692189303576
+      }
+    },
+    "CACNA1G": {
+      "fetal": {
+        "mean_tp10k": 0.08661707053272569,
+        "pct_expr": 6.884504726674886
+      },
+      "child": {
+        "mean_tp10k": 0.005982056892190785,
+        "pct_expr": 0.4981549815498155
+      },
+      "adult": {
+        "mean_tp10k": 0.010076565361511854,
+        "pct_expr": 2.0392458637937665
+      }
+    },
+    "CACNA1H": {
+      "fetal": {
+        "mean_tp10k": 0.0013478732617617963,
+        "pct_expr": 0.17981915330867243
+      },
+      "child": {
+        "mean_tp10k": 0.06589708971528846,
+        "pct_expr": 1.4022140221402213
+      },
+      "adult": {
+        "mean_tp10k": 0.016702076102400445,
+        "pct_expr": 1.7699115044247788
+      }
+    },
+    "CACNA1I": {
+      "fetal": {
+        "mean_tp10k": 0.004888331924704551,
+        "pct_expr": 0.4623921085080148
+      },
+      "child": {
+        "mean_tp10k": 0.0029467386727276587,
+        "pct_expr": 0.5350553505535056
+      },
+      "adult": {
+        "mean_tp10k": 0.005241195369904741,
+        "pct_expr": 1.5390534821085033
+      }
+    },
+    "CACNA1A": {
+      "fetal": {
+        "mean_tp10k": 0.06489865930429223,
+        "pct_expr": 7.465063707357173
+      },
+      "child": {
+        "mean_tp10k": 0.09394948141073842,
+        "pct_expr": 7.8966789667896675
+      },
+      "adult": {
+        "mean_tp10k": 0.08962521222526144,
+        "pct_expr": 18.661023470565603
+      }
+    },
+    "CACNA1B": {
+      "fetal": {
+        "mean_tp10k": 0.1224737575204166,
+        "pct_expr": 8.903616933826552
+      },
+      "child": {
+        "mean_tp10k": 0.03594451451254261,
+        "pct_expr": 3.191881918819188
+      },
+      "adult": {
+        "mean_tp10k": 0.06658517107504477,
+        "pct_expr": 11.004232397075798
+      }
+    },
+    "CACNA1E": {
+      "fetal": {
+        "mean_tp10k": 0.024805272788429564,
+        "pct_expr": 1.6235100698725853
+      },
+      "child": {
+        "mean_tp10k": 0.02393661971483189,
+        "pct_expr": 2.730627306273063
+      },
+      "adult": {
+        "mean_tp10k": 0.44459815424016275,
+        "pct_expr": 16.852635629088113
+      }
+    },
+    "RYR2": {
+      "fetal": {
+        "mean_tp10k": 94.03154153214165,
+        "pct_expr": 99.31154952733252
+      },
+      "child": {
+        "mean_tp10k": 129.12018732909533,
+        "pct_expr": 96.60516605166052
+      },
+      "adult": {
+        "mean_tp10k": 201.8487593171598,
+        "pct_expr": 98.88418622547134
+      }
+    },
+    "ATP2A2": {
+      "fetal": {
+        "mean_tp10k": 6.747972067035018,
+        "pct_expr": 96.17242087957254
+      },
+      "child": {
+        "mean_tp10k": 8.256830869735248,
+        "pct_expr": 77.65682656826569
+      },
+      "adult": {
+        "mean_tp10k": 7.103490250625296,
+        "pct_expr": 95.26741054251634
+      }
+    }
+  },
+  "per_gene_by_donor": {
+    "CACNA1C": {
+      "fetal": {
+        "Fetal1": 58.074,
+        "Fetal2": 62.8488,
+        "Fetal3": 61.3623
+      },
+      "child": {
+        "Young1": 37.8366,
+        "Young2": 48.9323,
+        "Young3": 23.1297
+      },
+      "adult": {
+        "Adult1": 39.9529,
+        "Adult2": 44.9861,
+        "Adult3": 32.9043
+      }
+    },
+    "CACNA1D": {
+      "fetal": {
+        "Fetal1": 0.1721,
+        "Fetal2": 0.4397,
+        "Fetal3": 1.5555
+      },
+      "child": {
+        "Young1": 0.1819,
+        "Young2": 0.2018,
+        "Young3": 0.0435
+      },
+      "adult": {
+        "Adult1": 0.0899,
+        "Adult2": 0.0809,
+        "Adult3": 0.1187
+      }
+    },
+    "CACNA1G": {
+      "fetal": {
+        "Fetal1": 0.0233,
+        "Fetal2": 0.082,
+        "Fetal3": 0.1647
+      },
+      "child": {
+        "Young1": 0.0036,
+        "Young2": 0.0046,
+        "Young3": 0.0082
+      },
+      "adult": {
+        "Adult1": 0.0076,
+        "Adult2": 0.0083,
+        "Adult3": 0.0298
+      }
+    },
+    "CACNA1H": {
+      "fetal": {
+        "Fetal1": 0.0013,
+        "Fetal2": 0.001,
+        "Fetal3": 0.002
+      },
+      "child": {
+        "Young1": 0.0082,
+        "Young2": 0.0128,
+        "Young3": 0.1369
+      },
+      "adult": {
+        "Adult1": 0.0104,
+        "Adult2": 0.0109,
+        "Adult3": 0.0697
+      }
+    },
+    "CACNA1I": {
+      "fetal": {
+        "Fetal1": 0.0073,
+        "Fetal2": 0.0045,
+        "Fetal3": 0.0029
+      },
+      "child": {
+        "Young1": 0.0038,
+        "Young2": 0.0046,
+        "Young3": 0.0011
+      },
+      "adult": {
+        "Adult1": 0.0054,
+        "Adult2": 0.0062,
+        "Adult3": 0.002
+      }
+    },
+    "CACNA1A": {
+      "fetal": {
+        "Fetal1": 0.0705,
+        "Fetal2": 0.056,
+        "Fetal3": 0.0738
+      },
+      "child": {
+        "Young1": 0.077,
+        "Young2": 0.0704,
+        "Young3": 0.1216
+      },
+      "adult": {
+        "Adult1": 0.0887,
+        "Adult2": 0.0879,
+        "Adult3": 0.0988
+      }
+    },
+    "CACNA1B": {
+      "fetal": {
+        "Fetal1": 0.1839,
+        "Fetal2": 0.0964,
+        "Fetal3": 0.099
+      },
+      "child": {
+        "Young1": 0.0292,
+        "Young2": 0.0303,
+        "Young3": 0.0438
+      },
+      "adult": {
+        "Adult1": 0.0454,
+        "Adult2": 0.1445,
+        "Adult3": 0.0575
+      }
+    },
+    "CACNA1E": {
+      "fetal": {
+        "Fetal1": 0.0473,
+        "Fetal2": 0.0164,
+        "Fetal3": 0.0143
+      },
+      "child": {
+        "Young1": 0.0343,
+        "Young2": 0.0299,
+        "Young3": 0.0142
+      },
+      "adult": {
+        "Adult1": 0.2092,
+        "Adult2": 0.8516,
+        "Adult3": 1.2196
+      }
+    },
+    "RYR2": {
+      "fetal": {
+        "Fetal1": 105.8105,
+        "Fetal2": 84.1485,
+        "Fetal3": 97.8523
+      },
+      "child": {
+        "Young1": 179.6333,
+        "Young2": 169.9505,
+        "Young3": 71.8367
+      },
+      "adult": {
+        "Adult1": 169.1341,
+        "Adult2": 289.273,
+        "Adult3": 250.426
+      }
+    },
+    "ATP2A2": {
+      "fetal": {
+        "Fetal1": 7.2655,
+        "Fetal2": 5.8506,
+        "Fetal3": 7.7062
+      },
+      "child": {
+        "Young1": 11.0678,
+        "Young2": 9.9715,
+        "Young3": 5.5504
+      },
+      "adult": {
+        "Adult1": 6.4803,
+        "Adult2": 6.4017,
+        "Adult3": 12.5638
+      }
+    }
+  },
+  "within_family_dominance": {
+    "L-type": {
+      "fetal": {
+        "dominant": "CACNA1C",
+        "dominant_pct_of_family": 98.9
+      },
+      "child": {
+        "dominant": "CACNA1C",
+        "dominant_pct_of_family": 99.6
+      },
+      "adult": {
+        "dominant": "CACNA1C",
+        "dominant_pct_of_family": 99.8
+      },
+      "dominant_switches": false
+    },
+    "T-type": {
+      "fetal": {
+        "dominant": "CACNA1G",
+        "dominant_pct_of_family": 93.3
+      },
+      "child": {
+        "dominant": "CACNA1H",
+        "dominant_pct_of_family": 88.1
+      },
+      "adult": {
+        "dominant": "CACNA1H",
+        "dominant_pct_of_family": 52.2
+      },
+      "dominant_switches": true
+    },
+    "other_Cav": {
+      "fetal": {
+        "dominant": "CACNA1B",
+        "dominant_pct_of_family": 57.7
+      },
+      "child": {
+        "dominant": "CACNA1A",
+        "dominant_pct_of_family": 61.1
+      },
+      "adult": {
+        "dominant": "CACNA1E",
+        "dominant_pct_of_family": 74.0
+      },
+      "dominant_switches": true
+    },
+    "SR_handling": {
+      "fetal": {
+        "dominant": "RYR2",
+        "dominant_pct_of_family": 93.3
+      },
+      "child": {
+        "dominant": "RYR2",
+        "dominant_pct_of_family": 94.0
+      },
+      "adult": {
+        "dominant": "RYR2",
+        "dominant_pct_of_family": 96.6
+      },
+      "dominant_switches": false
+    }
+  }
+}

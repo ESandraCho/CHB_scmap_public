@@ -1,0 +1,224 @@
+{
+  "description": "Cardiac ion-channel targets classified by autoimmune channelopathy type (congenital/fetal vs adult) and clinical symptom. Curated from the cited literature. Inherited (genetic) counterpart listed for comparison.",
+  "references": {
+    "Lazzerini2017_T1": "Lazzerini et al. 2017 Nat Rev Cardiol 14:521 (Table 1) \u2014 nrcardio.2017.61.pdf",
+    "Qu2019_T1": "Qu et al. 2019 Front Cardiovasc Med 6:54 (Table 1) \u2014 fcvm-06-00054.pdf",
+    "JinLi2020_T1": "Jin Li 2020 Curr Cardiol Rep 23:3 (Table 1) \u2014 11886_2020_Article_1430.pdf",
+    "Capecchi2019": "Capecchi et al. 2019 Heart Rhythm (K+ channelopathies) \u2014 1-s2.0-S1547527119301390-main.pdf",
+    "Cao2025": "Cao, Lu et al. 2025 Front Immunol 16:1561061 \u2014 fimmu-16-1561061.pdf",
+    "Lazzerini2025": "Lazzerini & Boutjdir 2025 Heart Rhythm (review) \u2014 PIIS1547527125021010.pdf",
+    "Lazzerini2023_JACCEP": "Lazzerini et al. 2023 JACC Clin EP 9 \u2014 1-s2.0-S2405500X23002050-main.pdf",
+    "Keefe2023": "Keefe & Wehrens 2023 JACC Clin EP editorial \u2014 keefe-wehrens-2023-...pdf",
+    "Strandberg2013": "Strandberg et al. 2013 PLoS One (Cav3.1 p305 fetal epitope)",
+    "Benjamin2025": "Benjamin et al. 2025 Lancet Rheumatol 7:e554 (anti-ATP1A1) \u2014 1-s2.0-S266599132500092X-main.pdf",
+    "Kline2019": "Kline & Costantini 2019 Med Clin N Am 103:809 (inherited) \u2014 1-s2.0-S0025712519300495.pdf"
+  },
+  "classification": [
+    {
+      "gene": "CACNA1D",
+      "channel_current": "Cav1.3 L-type ICaL",
+      "antibody": "anti-Ro/SSA (52kD)",
+      "autoimmune_class": "autoimmune congenital heart block",
+      "arrhythmia_class": "brady",
+      "life_stage": "fetal/neonatal",
+      "symptom_ecg": "AV block, sinus bradycardia",
+      "ep_mechanism": "inhibits ICaL -> nodal AP inhibition (SAN/AVN pacemaking)",
+      "inherited_counterpart": "SANDD (sinoatrial node dysfunction + deafness)",
+      "refs": [
+        "Lazzerini2017_T1",
+        "Qu2019_T1",
+        "JinLi2020_T1",
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "CACNA1C",
+      "channel_current": "Cav1.2 L-type ICaL",
+      "antibody": "anti-Ro/SSA (52kD)",
+      "autoimmune_class": "autoimmune congenital heart block",
+      "arrhythmia_class": "brady",
+      "life_stage": "fetal/neonatal (+ adult acquired)",
+      "symptom_ecg": "AV block, sinus bradycardia",
+      "ep_mechanism": "inhibits ICaL at AVN node cells (S5-S6 pore loop domain I+III); ubiquitous channel",
+      "inherited_counterpart": "Timothy syndrome / LQT8; Brugada 3",
+      "refs": [
+        "Lazzerini2017_T1",
+        "Qu2019_T1",
+        "Lazzerini2023_JACCEP",
+        "Keefe2023",
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "CACNA1G",
+      "channel_current": "Cav3.1 T-type ICaT",
+      "antibody": "anti-Ro/SSA",
+      "autoimmune_class": "autoimmune congenital heart block",
+      "arrhythmia_class": "brady",
+      "life_stage": "fetal/neonatal",
+      "symptom_ecg": "sinus bradycardia, AV block",
+      "ep_mechanism": "inhibits ICaT -> nodal AP inhibition; mapped fetal epitope p305 (S5-S6 repeat I)",
+      "inherited_counterpart": "(not a classic inherited channelopathy gene)",
+      "refs": [
+        "Lazzerini2017_T1",
+        "Qu2019_T1",
+        "Strandberg2013",
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "CACNA1H",
+      "channel_current": "Cav3.2 T-type ICaT",
+      "antibody": "anti-Ro/SSA",
+      "autoimmune_class": "autoimmune congenital heart block",
+      "arrhythmia_class": "brady",
+      "life_stage": "fetal (embryonic-predominant)",
+      "symptom_ecg": "sinus bradycardia, AV block",
+      "ep_mechanism": "inhibits ICaT (weaker, ~19%); predominant embryonic T-type isoform",
+      "inherited_counterpart": "(epilepsy/other; minor cardiac)",
+      "refs": [
+        "Lazzerini2017_T1",
+        "Qu2019_T1",
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "ATP1A1",
+      "channel_current": "Na+/K+-ATPase alpha-1 (transporter, NOT a channel)",
+      "antibody": "anti-ATP1A1 (maternal)",
+      "autoimmune_class": "autoimmune congenital heart block (biomarker)",
+      "arrhythmia_class": "brady",
+      "life_stage": "fetal/neonatal",
+      "symptom_ecg": "AV block (predictive biomarker)",
+      "ep_mechanism": "novel fetal cardiac protein target; 100% of CHB-affected, absent unaffected",
+      "inherited_counterpart": "(ATP1A1 mutations -> neuro/renal, not classic CHB)",
+      "refs": [
+        "Benjamin2025"
+      ]
+    },
+    {
+      "gene": "KCNH2",
+      "channel_current": "Kv11.1 / hERG IKr",
+      "antibody": "anti-Ro/SSA (52kD)",
+      "autoimmune_class": "autoimmune long-QT syndrome",
+      "arrhythmia_class": "tachy",
+      "life_stage": "adult",
+      "symptom_ecg": "QTc prolongation, complex ventricular arrhythmias, TdP",
+      "ep_mechanism": "inhibits IKr (acute pore block +/or chronic internalization) -> APD prolongation; S5-pore turret epitope",
+      "inherited_counterpart": "LQT2 (LoF) / SQT1 (GoF)",
+      "refs": [
+        "Lazzerini2017_T1",
+        "Capecchi2019",
+        "Cao2025",
+        "JinLi2020_T1",
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "KCNQ1",
+      "channel_current": "Kv7.1 IKs",
+      "antibody": "agonist-like anti-KCNQ1",
+      "autoimmune_class": "autoimmune short-QT / DCM-associated",
+      "arrhythmia_class": "tachy",
+      "life_stage": "adult",
+      "symptom_ecg": "QTc shortening, ventricular tachycardia",
+      "ep_mechanism": "increases IKs (agonist-like) -> APD shortening",
+      "inherited_counterpart": "LQT1 (LoF) / SQT2 (GoF) / familial AF",
+      "refs": [
+        "Lazzerini2017_T1",
+        "Capecchi2019",
+        "JinLi2020_T1",
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "KCNA4",
+      "channel_current": "Kv1.4 Ito",
+      "antibody": "anti-Kv1.4 (myasthenia gravis)",
+      "autoimmune_class": "autoimmune QT prolongation",
+      "arrhythmia_class": "tachy",
+      "life_stage": "adult",
+      "symptom_ecg": "QTc prolongation, TdP",
+      "ep_mechanism": "inhibiting (mechanism NA in table)",
+      "inherited_counterpart": "(not a classic isolated cardiac channelopathy)",
+      "refs": [
+        "Lazzerini2017_T1",
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "KCNJ5",
+      "channel_current": "Kir3.4 / GIRK4 IK(ACh)",
+      "antibody": "anti-Kir3.4",
+      "autoimmune_class": "autoimmune atrial fibrillation",
+      "arrhythmia_class": "tachy",
+      "life_stage": "adult",
+      "symptom_ecg": "atrial fibrillation",
+      "ep_mechanism": "anti-Kir3.4 autoantibody associated with AF (Lazzerini 2025 Fig 1)",
+      "inherited_counterpart": "(KCNJ5 -> primary aldosteronism; LQT13)",
+      "refs": [
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "KCNJ11",
+      "channel_current": "Kir6.2 / KATP",
+      "antibody": "anti-Kir6.2",
+      "autoimmune_class": "autoimmune VF / cardiac arrest (short-coupled VF)",
+      "arrhythmia_class": "tachy",
+      "life_stage": "adult",
+      "symptom_ecg": "ventricular fibrillation / cardiac arrest",
+      "ep_mechanism": "anti-Kir6.2 (KATP) autoantibody associated with VF/CA (Lazzerini 2025 Fig 1)",
+      "inherited_counterpart": "(KCNJ11 -> neonatal diabetes; Cantu)",
+      "refs": [
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "SCN5A",
+      "channel_current": "Nav1.5 INa",
+      "antibody": "anti-Nav1.5 (SEPARATE entity, NOT anti-Ro)",
+      "autoimmune_class": "autoimmune AV block / SA block (adult)",
+      "arrhythmia_class": "brady",
+      "life_stage": "adult",
+      "symptom_ecg": "AV block / sinoatrial block (idiopathic, adult)",
+      "ep_mechanism": "reduces INa (downregulation); AVN vulnerable due to low Na density",
+      "inherited_counterpart": "LQT3 / Brugada / PCCD / SCN5A-DCM",
+      "refs": [
+        "Lazzerini2017_T1",
+        "JinLi2020_T1",
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "SCN5A",
+      "channel_current": "Nav1.5 INa",
+      "antibody": "anti-Nav1.5 (SEPARATE entity, NOT anti-Ro)",
+      "autoimmune_class": "autoimmune Brugada-pattern / VA",
+      "arrhythmia_class": "tachy",
+      "life_stage": "adult",
+      "symptom_ecg": "Brugada-type ECG, ventricular arrhythmia",
+      "ep_mechanism": "anti-Nav1.5 associated with Brugada-syndrome phenotype (Lazzerini 2025 Fig 1, tachy branch)",
+      "inherited_counterpart": "LQT3 / Brugada / PCCD / SCN5A-DCM",
+      "refs": [
+        "Lazzerini2025"
+      ]
+    },
+    {
+      "gene": "CACNA1C",
+      "channel_current": "Cav1.2 L-type ICaL (agonist-like)",
+      "antibody": "agonist-like anti-Cav1.2 (anti-alpha1C)",
+      "autoimmune_class": "DCM-associated ventricular arrhythmia / VF-CA",
+      "arrhythmia_class": "tachy",
+      "life_stage": "adult",
+      "symptom_ecg": "ventricular tachycardia, VF/cardiac arrest, sudden cardiac death",
+      "ep_mechanism": "increases ICaL in ventricular CMs (agonist-like, N-terminus D1) -> APD prolongation + EADs",
+      "inherited_counterpart": "Timothy/LQT8",
+      "refs": [
+        "Lazzerini2017_T1",
+        "Qu2019_T1",
+        "Lazzerini2025"
+      ]
+    }
+  ]
+}

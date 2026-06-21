@@ -1,0 +1,20 @@
+# version: CHB v1 (standalone) | generated: 2026-06-17 | seed: 42 | input: celltype x stage interaction per channel: (fetal pace-work) - (adult pace-work) on log1p expression; interaction = batch-robust fetal-vs-adult pacemaker-specificity difference. STAGE MAIN EFFECT NOT interpreted (batch-confounded). n=1 fetal donor -> cells pseudoreplicated, p nominal/descriptive only
+node,gene,fetal_pace_minus_work,adult_pace_minus_work,interaction_coef,interaction_p,verdict,n_fetal_pace,n_adult_pace
+SAN,CACNA1C,-0.3283,-0.3845,0.0562,0.3359,constitutive (both stages),762,490
+SAN,CACNA1D,1.5469,1.4672,0.0797,0.1036,constitutive (both stages),762,490
+SAN,CACNA1G,0.0083,0.113,-0.1047,0.0,adult-specific,762,490
+SAN,CACNA1H,-0.0041,-0.0078,0.0037,0.5902,constitutive (both stages),762,490
+SAN,CACNA1E,-0.002,0.0503,-0.0523,0.0213,adult-specific,762,490
+SAN,SCN5A,-0.5789,-0.5698,-0.0091,0.8452,constitutive (both stages),762,490
+SAN,KCNH2,-0.0438,-0.009,-0.0348,0.2264,constitutive (both stages),762,490
+SAN,HCN4,0.5321,0.2441,0.2879,0.0,fetal-specific,762,490
+SAN,GJA5,-0.668,-0.1296,-0.5384,0.0,adult-specific,762,490
+AVN,CACNA1C,-0.7548,-0.3148,-0.4399,0.0,adult-specific,1217,310
+AVN,CACNA1D,1.0229,1.0834,-0.0605,0.0521,constitutive (both stages),1217,310
+AVN,CACNA1G,0.1479,0.1424,0.0055,0.6733,constitutive (both stages),1217,310
+AVN,CACNA1H,-0.0005,-0.0028,0.0023,0.422,constitutive (both stages),1217,310
+AVN,CACNA1E,0.0033,0.0329,-0.0296,0.0308,adult-specific,1217,310
+AVN,SCN5A,-0.4023,-0.7391,0.3368,0.0,fetal-specific,1217,310
+AVN,KCNH2,-0.0959,-0.0775,-0.0183,0.5345,constitutive (both stages),1217,310
+AVN,HCN4,0.0671,0.1774,-0.1103,0.0,adult-specific,1217,310
+AVN,GJA5,-0.0446,0.0703,-0.1149,0.0,adult-specific,1217,310

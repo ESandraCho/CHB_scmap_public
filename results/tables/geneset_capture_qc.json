@@ -1,0 +1,1922 @@
+{
+  "detection_min_frac_cells": 0.01,
+  "geneset_sources": {
+    "electrophysiology": "GO:0005216 + GO:0022857 (QuickGO, human, incl. descendants)",
+    "structural": "GO:0030017 + GO:0008307 (QuickGO, human)",
+    "housekeeping": "Eisenberg & Levanon 2013 Trends Genet (curated stable core)"
+  },
+  "geneset_counts": {
+    "electrophysiology": 1932,
+    "structural": 321,
+    "housekeeping": 34
+  },
+  "stages": {
+    "fetal": {
+      "groups": {
+        "Lim_fetalSAN": {
+          "platform": "snRNA",
+          "n_cells": 2192,
+          "counts_approx": false,
+          "genesets": {
+            "electrophysiology": {
+              "n_in_set": 1932,
+              "pct_detected": 37.9,
+              "median_detection_frac": 0.0,
+              "median_cellfrac": 1.6198567915705555e-05
+            },
+            "structural": {
+              "n_in_set": 321,
+              "pct_detected": 59.8,
+              "median_detection_frac": 0.068,
+              "median_cellfrac": 5.96183523604411e-05
+            },
+            "housekeeping": {
+              "n_in_set": 34,
+              "pct_detected": 100.0,
+              "median_detection_frac": 0.295,
+              "median_cellfrac": 4.9911855395984985e-05
+            }
+          }
+        },
+        "Protze_fetalAVN": {
+          "platform": "snRNA",
+          "n_cells": 5730,
+          "counts_approx": false,
+          "genesets": {
+            "electrophysiology": {
+              "n_in_set": 1932,
+              "pct_detected": 35.3,
+              "median_detection_frac": 0.001,
+              "median_cellfrac": 1.892905904294656e-05
+            },
+            "structural": {
+              "n_in_set": 321,
+              "pct_detected": 59.8,
+              "median_detection_frac": 0.057,
+              "median_cellfrac": 6.476455346253777e-05
+            },
+            "housekeeping": {
+              "n_in_set": 34,
+              "pct_detected": 100.0,
+              "median_detection_frac": 0.386,
+              "median_cellfrac": 8.12337273116615e-05
+            }
+          }
+        },
+        "Sim_fetal": {
+          "platform": "snRNA",
+          "n_cells": 19464,
+          "counts_approx": false,
+          "genesets": {
+            "electrophysiology": {
+              "n_in_set": 1932,
+              "pct_detected": 39.0,
+              "median_detection_frac": 0.001,
+              "median_cellfrac": 1.5405231718965097e-05
+            },
+            "structural": {
+              "n_in_set": 321,
+              "pct_detected": 60.4,
+              "median_detection_frac": 0.054,
+              "median_cellfrac": 7.078184556560317e-05
+            },
+            "housekeeping": {
+              "n_in_set": 34,
+              "pct_detected": 97.1,
+              "median_detection_frac": 0.385,
+              "median_cellfrac": 5.241358318750541e-05
+            }
+          }
+        },
+        "Cui_late_fetal": {
+          "platform": "Smart-seq",
+          "n_cells": 704,
+          "counts_approx": false,
+          "genesets": {
+            "electrophysiology": {
+              "n_in_set": 1932,
+              "pct_detected": 43.2,
+              "median_detection_frac": 0.003,
+              "median_cellfrac": 1.360128146356333e-05
+            },
+            "structural": {
+              "n_in_set": 321,
+              "pct_detected": 65.4,
+              "median_detection_frac": 0.116,
+              "median_cellfrac": 6.097649751441015e-05
+            },
+            "housekeeping": {
+              "n_in_set": 34,
+              "pct_detected": 100.0,
+              "median_detection_frac": 0.784,
+              "median_cellfrac": 0.0002665182257514811
+            }
+          }
+        }
+      },
+      "snrna_vs_smartseq_pattern_rho": {
+        "Lim_fetalSAN": {
+          "electrophysiology": {
+            "rho": 0.43,
+            "p": 2.52637851571617e-31,
+            "n_shared": 664
+          },
+          "structural": {
+            "rho": 0.496,
+            "p": 5.322249525797133e-13,
+            "n_shared": 187
+          },
+          "housekeeping": {
+            "rho": 0.619,
+            "p": 9.531476815699556e-05,
+            "n_shared": 34
+          }
+        },
+        "Protze_fetalAVN": {
+          "electrophysiology": {
+            "rho": 0.561,
+            "p": 2.358467949441857e-53,
+            "n_shared": 629
+          },
+          "structural": {
+            "rho": 0.659,
+            "p": 8.526937198025951e-25,
+            "n_shared": 188
+          },
+          "housekeeping": {
+            "rho": 0.806,
+            "p": 9.047891407952985e-09,
+            "n_shared": 34
+          }
+        },
+        "Sim_fetal": {
+          "electrophysiology": {
+            "rho": 0.543,
+            "p": 2.8537472976412584e-52,
+            "n_shared": 666
+          },
+          "structural": {
+            "rho": 0.599,
+            "p": 1.1312321282408873e-19,
+            "n_shared": 188
+          },
+          "housekeeping": {
+            "rho": 0.634,
+            "p": 7.359615760238351e-05,
+            "n_shared": 33
+          }
+        }
+      },
+      "cardiac_channel_capture": {
+        "Lim_fetalSAN": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 95.3,
+            "cellfrac": 0.005219925797577735
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 63.87,
+            "cellfrac": 0.00046354395589260933
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 30.43,
+            "cellfrac": 5.434840665545238e-05
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 0.73,
+            "cellfrac": 8.381446255422132e-07
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 69.8,
+            "cellfrac": 0.0004073851042710946
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.46,
+            "cellfrac": 5.218691244817354e-07
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 1.64,
+            "cellfrac": 1.8687269049486362e-06
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 42.56,
+            "cellfrac": 8.18233688181522e-05
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 6.71,
+            "cellfrac": 8.449906336771979e-06
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 14.64,
+            "cellfrac": 2.1457531673577483e-05
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 23.13,
+            "cellfrac": 5.002137631087876e-05
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 23.18,
+            "cellfrac": 3.292638669662259e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 1.14,
+            "cellfrac": 1.4780436305560987e-06
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 7.62,
+            "cellfrac": 1.0204114864564164e-05
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 1.6,
+            "cellfrac": 2.2028261830360744e-06
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 83.58,
+            "cellfrac": 0.0006392752180038107
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 0.82,
+            "cellfrac": 9.761559773847765e-07
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 18.89,
+            "cellfrac": 2.6919420235080198e-05
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 1.64,
+            "cellfrac": 2.1222411910250487e-06
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 78.38,
+            "cellfrac": 0.00023806589590065778
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 4.24,
+            "cellfrac": 9.765801791588491e-06
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 61.13,
+            "cellfrac": 0.0001968278395028593
+          }
+        },
+        "Protze_fetalAVN": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 97.33,
+            "cellfrac": 0.0070929599521733985
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 9.09,
+            "cellfrac": 3.3878732078158406e-05
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 6.84,
+            "cellfrac": 1.3917460226382966e-05
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 0.07,
+            "cellfrac": 7.41949614100981e-08
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 13.96,
+            "cellfrac": 6.22512380296677e-05
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.58,
+            "cellfrac": 7.463693593121759e-07
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.94,
+            "cellfrac": 1.09888163021977e-06
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 18.57,
+            "cellfrac": 3.0720066400818035e-05
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 6.02,
+            "cellfrac": 8.633068399833366e-06
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 2.79,
+            "cellfrac": 5.118450713699989e-06
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 17.56,
+            "cellfrac": 4.18282716752903e-05
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 22.81,
+            "cellfrac": 3.74690184785315e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 0.72,
+            "cellfrac": 1.1409217480480385e-06
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 3.14,
+            "cellfrac": 4.197891605518757e-06
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 25.04,
+            "cellfrac": 4.791516054297591e-05
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 13.91,
+            "cellfrac": 8.381336618431195e-05
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 6.93,
+            "cellfrac": 9.17099691040476e-06
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 18.6,
+            "cellfrac": 2.7504844129033687e-05
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 9.9,
+            "cellfrac": 1.5255829845996892e-05
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 66.65,
+            "cellfrac": 0.00020753511884791833
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 1.15,
+            "cellfrac": 1.9985808506490415e-06
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 52.08,
+            "cellfrac": 0.00015664602868061244
+          }
+        },
+        "Sim_fetal": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 98.8,
+            "cellfrac": 0.006107256949383568
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 17.46,
+            "cellfrac": 6.545112830697642e-05
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 6.88,
+            "cellfrac": 8.661707053272568e-06
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 0.18,
+            "cellfrac": 1.3478732617617964e-07
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 10.93,
+            "cellfrac": 3.444295416906321e-05
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 1.36,
+            "cellfrac": 1.4091752171218158e-06
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 1.88,
+            "cellfrac": 1.5627114300969637e-06
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 33.55,
+            "cellfrac": 4.2909050688251006e-05
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 7.26,
+            "cellfrac": 6.688820752753181e-06
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 1.5,
+            "cellfrac": 1.5040005548583193e-06
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 31.9,
+            "cellfrac": 6.451884974268666e-05
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 49.99,
+            "cellfrac": 6.83848278322665e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 0.99,
+            "cellfrac": 8.561430000466708e-07
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 6.56,
+            "cellfrac": 6.629917431992792e-06
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 34.41,
+            "cellfrac": 4.512774241755155e-05
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 6.71,
+            "cellfrac": 4.19974100325302e-05
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 9.96,
+            "cellfrac": 9.418827788127035e-06
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 25.4,
+            "cellfrac": 2.7919147590277078e-05
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 11.45,
+            "cellfrac": 1.1963684454834958e-05
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 82.71,
+            "cellfrac": 0.00021638971476506608
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 1.09,
+            "cellfrac": 1.0042620623914909e-06
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 82.01,
+            "cellfrac": 0.0002920399214447614
+          }
+        },
+        "Cui_late_fetal": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 36.65,
+            "cellfrac": 4.031616564557021e-05
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 1.56,
+            "cellfrac": 2.8807726476930546e-06
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 4.12,
+            "cellfrac": 2.773435229113226e-06
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 1.7,
+            "cellfrac": 2.1888891466589338e-06
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 3.12,
+            "cellfrac": 4.2569150361718585e-06
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.28,
+            "cellfrac": 1.6888299033823152e-08
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 1.85,
+            "cellfrac": 7.066795600706336e-07
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 7.67,
+            "cellfrac": 6.006072760604828e-06
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 7.1,
+            "cellfrac": 1.3175505954326871e-05
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 6.82,
+            "cellfrac": 3.761580373314133e-06
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 0.71,
+            "cellfrac": 7.063077368914216e-07
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 34.23,
+            "cellfrac": 4.3957372503045844e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 12.22,
+            "cellfrac": 8.6461402567436e-06
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 2.41,
+            "cellfrac": 1.9601594550474066e-06
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 23.15,
+            "cellfrac": 2.309022197885336e-05
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 3.55,
+            "cellfrac": 4.243833475585985e-06
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 2.98,
+            "cellfrac": 4.687547207328374e-07
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 23.58,
+            "cellfrac": 1.4457080680998243e-05
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 31.53,
+            "cellfrac": 5.341976689545969e-05
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 13.78,
+            "cellfrac": 1.099468398764303e-05
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 10.8,
+            "cellfrac": 1.2488540286572605e-05
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 24.43,
+            "cellfrac": 2.4660068742414628e-05
+          }
+        }
+      },
+      "subtype_ratios": {
+        "Lim_fetalSAN": {
+          "Ca": {
+            "L-type": 0.9904,
+            "T-type": 0.0096
+          },
+          "K": {
+            "Kv_rapid": 0.0318,
+            "Kv_slow": 0.2302,
+            "Kv_Ito": 0.0565,
+            "Kv_ultrarapid": 0.0207,
+            "Kir": 0.0129,
+            "Kir_ATP": 0.0035,
+            "Kir_GIRK": 0.6442
+          },
+          "Na": {
+            "Nav_cardiac": 0.9527,
+            "Nav_beta": 0.0473
+          }
+        },
+        "Protze_fetalAVN": {
+          "Ca": {
+            "L-type": 0.998,
+            "T-type": 0.002
+          },
+          "K": {
+            "Kv_rapid": 0.0765,
+            "Kv_slow": 0.4239,
+            "Kv_Ito": 0.1031,
+            "Kv_ultrarapid": 0.0105,
+            "Kir": 0.1252,
+            "Kir_ATP": 0.0335,
+            "Kir_GIRK": 0.2274
+          },
+          "Na": {
+            "Nav_cardiac": 0.9874,
+            "Nav_beta": 0.0126
+          }
+        },
+        "Sim_fetal": {
+          "Ca": {
+            "L-type": 0.9986,
+            "T-type": 0.0014
+          },
+          "K": {
+            "Kv_rapid": 0.1364,
+            "Kv_slow": 0.4316,
+            "Kv_Ito": 0.142,
+            "Kv_ultrarapid": 0.003,
+            "Kir": 0.122,
+            "Kir_ATP": 0.0256,
+            "Kir_GIRK": 0.1394
+          },
+          "Na": {
+            "Nav_cardiac": 0.9966,
+            "Nav_beta": 0.0034
+          }
+        },
+        "Cui_late_fetal": {
+          "Ca": {
+            "L-type": 0.897,
+            "T-type": 0.103
+          },
+          "K": {
+            "Kv_rapid": 0.2457,
+            "Kv_slow": 0.0615,
+            "Kv_Ito": 0.0776,
+            "Kv_ultrarapid": 0.021,
+            "Kir": 0.1427,
+            "Kir_ATP": 0.347,
+            "Kir_GIRK": 0.1045
+          },
+          "Na": {
+            "Nav_cardiac": 0.6638,
+            "Nav_beta": 0.3362
+          }
+        }
+      },
+      "smartseq_ref": "Cui_late_fetal"
+    },
+    "adult": {
+      "groups": {
+        "Sim_adult": {
+          "platform": "snRNA",
+          "n_cells": 2599,
+          "counts_approx": false,
+          "genesets": {
+            "electrophysiology": {
+              "n_in_set": 1932,
+              "pct_detected": 43.5,
+              "median_detection_frac": 0.002,
+              "median_cellfrac": 1.116624091206517e-05
+            },
+            "structural": {
+              "n_in_set": 321,
+              "pct_detected": 60.4,
+              "median_detection_frac": 0.112,
+              "median_cellfrac": 6.288608101491974e-05
+            },
+            "housekeeping": {
+              "n_in_set": 34,
+              "pct_detected": 97.1,
+              "median_detection_frac": 0.459,
+              "median_cellfrac": 4.611929060189408e-05
+            }
+          }
+        },
+        "Kanemaru_adult": {
+          "platform": "snRNA",
+          "n_cells": 47782,
+          "counts_approx": true,
+          "genesets": {
+            "electrophysiology": {
+              "n_in_set": 1932,
+              "pct_detected": 35.1,
+              "median_detection_frac": 0.001,
+              "median_cellfrac": 1.9648033606640707e-05
+            },
+            "structural": {
+              "n_in_set": 321,
+              "pct_detected": 59.8,
+              "median_detection_frac": 0.075,
+              "median_cellfrac": 8.984436890544947e-05
+            },
+            "housekeeping": {
+              "n_in_set": 34,
+              "pct_detected": 100.0,
+              "median_detection_frac": 0.28,
+              "median_cellfrac": 4.444029007977116e-05
+            }
+          }
+        },
+        "Wang_adult": {
+          "platform": "Smart-seq",
+          "n_cells": 2814,
+          "counts_approx": false,
+          "genesets": {
+            "electrophysiology": {
+              "n_in_set": 1932,
+              "pct_detected": 41.0,
+              "median_detection_frac": 0.005,
+              "median_cellfrac": 1.3403473983048047e-06
+            },
+            "structural": {
+              "n_in_set": 321,
+              "pct_detected": 64.8,
+              "median_detection_frac": 0.07,
+              "median_cellfrac": 1.4967492623197715e-05
+            },
+            "housekeeping": {
+              "n_in_set": 34,
+              "pct_detected": 100.0,
+              "median_detection_frac": 0.568,
+              "median_cellfrac": 3.314408973685017e-05
+            }
+          }
+        }
+      },
+      "snrna_vs_smartseq_pattern_rho": {
+        "Sim_adult": {
+          "electrophysiology": {
+            "rho": 0.666,
+            "p": 7.11951591317812e-89,
+            "n_shared": 684
+          },
+          "structural": {
+            "rho": 0.733,
+            "p": 2.6157245624842626e-33,
+            "n_shared": 190
+          },
+          "housekeeping": {
+            "rho": 0.479,
+            "p": 0.004839181154884183,
+            "n_shared": 33
+          }
+        },
+        "Kanemaru_adult": {
+          "electrophysiology": {
+            "rho": 0.623,
+            "p": 1.1220843884776267e-64,
+            "n_shared": 589
+          },
+          "structural": {
+            "rho": 0.752,
+            "p": 1.1712474822271861e-35,
+            "n_shared": 189
+          },
+          "housekeeping": {
+            "rho": 0.517,
+            "p": 0.0017225957365586105,
+            "n_shared": 34
+          }
+        }
+      },
+      "cardiac_channel_capture": {
+        "Sim_adult": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 97.15,
+            "cellfrac": 0.004022532773947522
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 19.2,
+            "cellfrac": 9.11169979086198e-06
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 2.04,
+            "cellfrac": 1.0076565361511854e-06
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 1.77,
+            "cellfrac": 1.6702076102400445e-06
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 19.74,
+            "cellfrac": 1.5423772368279e-05
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 11.89,
+            "cellfrac": 6.408266097408822e-06
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 2.27,
+            "cellfrac": 8.821616866959454e-07
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 14.47,
+            "cellfrac": 7.964157251785929e-06
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 34.13,
+            "cellfrac": 2.024181639223194e-05
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 0.27,
+            "cellfrac": 1.1601838704284669e-07
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 88.84,
+            "cellfrac": 0.0003223522087852578
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 62.25,
+            "cellfrac": 5.6884531703513974e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 1.39,
+            "cellfrac": 8.43104199378219e-07
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 17.01,
+            "cellfrac": 9.256313554262684e-06
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 60.37,
+            "cellfrac": 5.727586901560385e-05
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 12.31,
+            "cellfrac": 4.7573311081182955e-05
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 11.47,
+            "cellfrac": 5.515240363611193e-06
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 23.82,
+            "cellfrac": 1.4697831452668837e-05
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 33.59,
+            "cellfrac": 2.117900080064541e-05
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 82.88,
+            "cellfrac": 0.00015791287267680022
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 3.39,
+            "cellfrac": 1.5232558878761896e-06
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 90.96,
+            "cellfrac": 0.00039173501985947755
+          }
+        },
+        "Kanemaru_adult": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 98.08,
+            "cellfrac": 0.006479661226745355
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 6.66,
+            "cellfrac": 1.050813387046195e-05
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 0.87,
+            "cellfrac": 9.302581554941009e-07
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 0.88,
+            "cellfrac": 9.870909364940849e-07
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 3.07,
+            "cellfrac": 1.4016075933791401e-05
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 4.99,
+            "cellfrac": 6.658334288357433e-06
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.58,
+            "cellfrac": 7.067409573430333e-07
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 5.45,
+            "cellfrac": 6.8967425477378545e-06
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 3.58,
+            "cellfrac": 4.309877755991658e-06
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 0.1,
+            "cellfrac": 1.284889255419272e-07
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 76.12,
+            "cellfrac": 0.0003465870248736369
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 31.84,
+            "cellfrac": 5.12530525719879e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 1.14,
+            "cellfrac": 1.3968949912309523e-06
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 7.05,
+            "cellfrac": 9.193738359137398e-06
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 28.82,
+            "cellfrac": 4.451270968849079e-05
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 6.98,
+            "cellfrac": 2.82736823534588e-05
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 5.26,
+            "cellfrac": 6.031168584268668e-06
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 5.82,
+            "cellfrac": 8.544506612855887e-06
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 8.8,
+            "cellfrac": 1.2916360799734773e-05
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 65.9,
+            "cellfrac": 0.0001989601474695693
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 1.41,
+            "cellfrac": 1.6511404159786487e-06
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 71.95,
+            "cellfrac": 0.0002901262627679663
+          }
+        },
+        "Wang_adult": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 26.15,
+            "cellfrac": 9.044370807029372e-06
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 1.67,
+            "cellfrac": 1.8356172926865157e-07
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 3.55,
+            "cellfrac": 3.919773306078926e-07
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 3.66,
+            "cellfrac": 5.420318277911846e-07
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.85,
+            "cellfrac": 3.545136642463046e-07
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 7.11,
+            "cellfrac": 9.231198021208132e-07
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.85,
+            "cellfrac": 1.3927012655321044e-07
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 3.8,
+            "cellfrac": 1.0537427820226481e-06
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 2.77,
+            "cellfrac": 6.182197619122186e-07
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 2.03,
+            "cellfrac": 2.672702770898253e-07
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 19.83,
+            "cellfrac": 7.74925209202408e-06
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 41.04,
+            "cellfrac": 1.779294027714344e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 10.98,
+            "cellfrac": 3.7600904620693137e-06
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 8.92,
+            "cellfrac": 2.3540211289995783e-06
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 15.25,
+            "cellfrac": 5.144870224257774e-06
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 1.92,
+            "cellfrac": 6.330670044830992e-07
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 5.61,
+            "cellfrac": 9.686562755200548e-07
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 3.87,
+            "cellfrac": 1.0942376342722095e-06
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 17.48,
+            "cellfrac": 6.786039361701195e-06
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 11.62,
+            "cellfrac": 3.3744179541851076e-06
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 2.99,
+            "cellfrac": 5.987486392505199e-07
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 34.54,
+            "cellfrac": 1.2636949543811906e-05
+          }
+        }
+      },
+      "subtype_ratios": {
+        "Sim_adult": {
+          "Ca": {
+            "L-type": 0.9993,
+            "T-type": 0.0007
+          },
+          "K": {
+            "Kv_rapid": 0.0797,
+            "Kv_slow": 0.2212,
+            "Kv_Ito": 0.4799,
+            "Kv_ultrarapid": 0.0002,
+            "Kir": 0.1009,
+            "Kir_ATP": 0.0308,
+            "Kir_GIRK": 0.0872
+          },
+          "Na": {
+            "Nav_cardiac": 0.9961,
+            "Nav_beta": 0.0039
+          }
+        },
+        "Kanemaru_adult": {
+          "Ca": {
+            "L-type": 0.9997,
+            "T-type": 0.0003
+          },
+          "K": {
+            "Kv_rapid": 0.072,
+            "Kv_slow": 0.2794,
+            "Kv_Ito": 0.4928,
+            "Kv_ultrarapid": 0.0002,
+            "Kir": 0.0839,
+            "Kir_ATP": 0.0201,
+            "Kir_GIRK": 0.0517
+          },
+          "Na": {
+            "Nav_cardiac": 0.9943,
+            "Nav_beta": 0.0057
+          }
+        },
+        "Wang_adult": {
+          "Ca": {
+            "L-type": 0.9081,
+            "T-type": 0.0919
+          },
+          "K": {
+            "Kv_rapid": 0.352,
+            "Kv_slow": 0.0668,
+            "Kv_Ito": 0.1656,
+            "Kv_ultrarapid": 0.0053,
+            "Kir": 0.1675,
+            "Kir_ATP": 0.2087,
+            "Kir_GIRK": 0.0342
+          },
+          "Na": {
+            "Nav_cardiac": 0.9548,
+            "Nav_beta": 0.0452
+          }
+        }
+      },
+      "smartseq_ref": "Wang_adult"
+    }
+  },
+  "nodal_pacemaker_vs_working": {
+    "fetal_SAN": {
+      "pacemaker_CM": {
+        "n_cells": 762,
+        "channels": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 99.61,
+            "cellfrac": 0.003141599797862428
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 98.43,
+            "cellfrac": 0.001844135418168775
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 29.53,
+            "cellfrac": 5.713205776572673e-05
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 0.13,
+            "cellfrac": 2.1641424109585247e-07
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 95.93,
+            "cellfrac": 0.0015245634752532114
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.39,
+            "cellfrac": 6.022885588054147e-07
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 1.31,
+            "cellfrac": 1.993263337961017e-06
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 69.42,
+            "cellfrac": 0.00024609502334777385
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 2.49,
+            "cellfrac": 3.8038593075309067e-06
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 3.94,
+            "cellfrac": 5.129257753903335e-06
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 26.38,
+            "cellfrac": 6.662606689864988e-05
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 16.01,
+            "cellfrac": 2.7270195235371945e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 0.13,
+            "cellfrac": 2.072218471506789e-07
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 4.86,
+            "cellfrac": 7.318215069000397e-06
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 0.26,
+            "cellfrac": 3.9015202581296933e-07
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 97.51,
+            "cellfrac": 0.0012147334866288865
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 0.39,
+            "cellfrac": 5.127039673922543e-07
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 13.65,
+            "cellfrac": 2.5438675705228013e-05
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 0.92,
+            "cellfrac": 1.8908995119495534e-06
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 69.42,
+            "cellfrac": 0.00022882062469155849
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 0.66,
+            "cellfrac": 1.0324406331383895e-06
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 19.29,
+            "cellfrac": 4.699771418572431e-05
+          }
+        }
+      },
+      "working_CM": {
+        "n_cells": 2192,
+        "channels": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 95.3,
+            "cellfrac": 0.005219925797577735
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 63.87,
+            "cellfrac": 0.00046354395589260933
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 30.43,
+            "cellfrac": 5.434840665545238e-05
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 0.73,
+            "cellfrac": 8.381446255422132e-07
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 69.8,
+            "cellfrac": 0.0004073851042710946
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.46,
+            "cellfrac": 5.218691244817354e-07
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 1.64,
+            "cellfrac": 1.8687269049486362e-06
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 42.56,
+            "cellfrac": 8.18233688181522e-05
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 6.71,
+            "cellfrac": 8.449906336771979e-06
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 14.64,
+            "cellfrac": 2.1457531673577483e-05
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 23.13,
+            "cellfrac": 5.002137631087876e-05
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 23.18,
+            "cellfrac": 3.292638669662259e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 1.14,
+            "cellfrac": 1.4780436305560987e-06
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 7.62,
+            "cellfrac": 1.0204114864564164e-05
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 1.6,
+            "cellfrac": 2.2028261830360744e-06
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 83.58,
+            "cellfrac": 0.0006392752180038107
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 0.82,
+            "cellfrac": 9.761559773847765e-07
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 18.89,
+            "cellfrac": 2.6919420235080198e-05
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 1.64,
+            "cellfrac": 2.1222411910250487e-06
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 78.38,
+            "cellfrac": 0.00023806589590065778
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 4.24,
+            "cellfrac": 9.765801791588491e-06
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 61.13,
+            "cellfrac": 0.0001968278395028593
+          }
+        }
+      }
+    },
+    "fetal_AVN": {
+      "pacemaker_CM": {
+        "n_cells": 1217,
+        "channels": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 96.38,
+            "cellfrac": 0.0038939744909169648
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 57.27,
+            "cellfrac": 0.0005203041972465562
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 21.12,
+            "cellfrac": 4.36137786465296e-05
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 0.0,
+            "cellfrac": 0.0
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 32.37,
+            "cellfrac": 0.00020839603795130986
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.49,
+            "cellfrac": 6.662396543228547e-07
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 1.07,
+            "cellfrac": 1.3290467843750797e-06
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 22.02,
+            "cellfrac": 4.8501852772234245e-05
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 3.2,
+            "cellfrac": 5.163173575753086e-06
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 3.04,
+            "cellfrac": 4.558677910365303e-06
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 14.71,
+            "cellfrac": 3.657001064841799e-05
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 11.83,
+            "cellfrac": 2.0728953669189197e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 0.0,
+            "cellfrac": 0.0
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 2.96,
+            "cellfrac": 4.32168095440396e-06
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 3.78,
+            "cellfrac": 5.415003520826957e-06
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 50.04,
+            "cellfrac": 0.00036316465959497155
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 1.48,
+            "cellfrac": 1.5846855058740602e-06
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 12.74,
+            "cellfrac": 2.217396978130365e-05
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 3.53,
+            "cellfrac": 6.213894981381215e-06
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 62.53,
+            "cellfrac": 0.00023601195665347738
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 1.31,
+            "cellfrac": 2.425044074563954e-06
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 20.13,
+            "cellfrac": 6.504791697684689e-05
+          }
+        }
+      },
+      "working_CM": {
+        "n_cells": 5730,
+        "channels": {
+          "CACNA1C": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 97.33,
+            "cellfrac": 0.0070929599521733985
+          },
+          "CACNA1D": {
+            "ion": "Ca",
+            "subtype": "L-type",
+            "detect_pct": 9.09,
+            "cellfrac": 3.3878732078158406e-05
+          },
+          "CACNA1G": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 6.84,
+            "cellfrac": 1.3917460226382966e-05
+          },
+          "CACNA1H": {
+            "ion": "Ca",
+            "subtype": "T-type",
+            "detect_pct": 0.07,
+            "cellfrac": 7.41949614100981e-08
+          },
+          "HCN1": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 13.96,
+            "cellfrac": 6.22512380296677e-05
+          },
+          "HCN2": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.58,
+            "cellfrac": 7.463693593121759e-07
+          },
+          "HCN3": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 0.94,
+            "cellfrac": 1.09888163021977e-06
+          },
+          "HCN4": {
+            "ion": "cation",
+            "subtype": "HCN",
+            "detect_pct": 18.57,
+            "cellfrac": 3.0720066400818035e-05
+          },
+          "KCNA4": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 6.02,
+            "cellfrac": 8.633068399833366e-06
+          },
+          "KCNA5": {
+            "ion": "K",
+            "subtype": "Kv_ultrarapid",
+            "detect_pct": 2.79,
+            "cellfrac": 5.118450713699989e-06
+          },
+          "KCND3": {
+            "ion": "K",
+            "subtype": "Kv_Ito",
+            "detect_pct": 17.56,
+            "cellfrac": 4.18282716752903e-05
+          },
+          "KCNH2": {
+            "ion": "K",
+            "subtype": "Kv_rapid",
+            "detect_pct": 22.81,
+            "cellfrac": 3.74690184785315e-05
+          },
+          "KCNJ11": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 0.72,
+            "cellfrac": 1.1409217480480385e-06
+          },
+          "KCNJ12": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 3.14,
+            "cellfrac": 4.197891605518757e-06
+          },
+          "KCNJ2": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 25.04,
+            "cellfrac": 4.791516054297591e-05
+          },
+          "KCNJ3": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 13.91,
+            "cellfrac": 8.381336618431195e-05
+          },
+          "KCNJ4": {
+            "ion": "K",
+            "subtype": "Kir",
+            "detect_pct": 6.93,
+            "cellfrac": 9.17099691040476e-06
+          },
+          "KCNJ5": {
+            "ion": "K",
+            "subtype": "Kir_GIRK",
+            "detect_pct": 18.6,
+            "cellfrac": 2.7504844129033687e-05
+          },
+          "KCNJ8": {
+            "ion": "K",
+            "subtype": "Kir_ATP",
+            "detect_pct": 9.9,
+            "cellfrac": 1.5255829845996892e-05
+          },
+          "KCNQ1": {
+            "ion": "K",
+            "subtype": "Kv_slow",
+            "detect_pct": 66.65,
+            "cellfrac": 0.00020753511884791833
+          },
+          "SCN3B": {
+            "ion": "Na",
+            "subtype": "Nav_beta",
+            "detect_pct": 1.15,
+            "cellfrac": 1.9985808506490415e-06
+          },
+          "SCN5A": {
+            "ion": "Na",
+            "subtype": "Nav_cardiac",
+            "detect_pct": 52.08,
+            "cellfrac": 0.00015664602868061244
+          }
+        }
+      }
+    }
+  }
+}

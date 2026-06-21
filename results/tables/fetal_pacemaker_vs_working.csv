@@ -1,0 +1,22 @@
+# version: CHB v1 (standalone) | generated: 2026-06-21 | seed: 42 | input: within-fetal-stage, within-donor pacemaker_CM vs working_CM channel-panel contrast (no cross-dataset confound); log1p-normalized, Mann-Whitney + BH-FDR
+node,gene,role,mean_pacemaker,mean_working,log2FC_pace_vs_work,n_pacemaker,n_working,p,fdr
+SAN,CACNA1G,Ca target,0.3021,0.2938,0.0398,762,2192,0.9236,0.9236
+SAN,CACNA1D,Ca target,2.7253,1.1784,1.2089,762,2192,0.0,0.0
+SAN,CACNA1H,Ca target,0.0013,0.0053,-1.4762,762,2192,0.0603,0.0753
+SAN,CACNA1C,Ca target,3.2942,3.6225,-0.137,762,2192,0.0,0.0
+SAN,KCNH2,K target (LQT),0.1528,0.1966,-0.3618,762,2192,0.0003,0.0006
+SAN,KCNQ1,K target,0.949,1.0133,-0.0944,762,2192,0.1247,0.1386
+SAN,KCNA4,K target,0.0226,0.0527,-1.1875,762,2192,0.0,0.0
+SAN,KCNJ5,K target (AF),0.1373,0.1602,-0.2212,762,2192,0.0066,0.011
+SAN,KCNJ11,K target (VF),0.0012,0.0093,-2.194,762,2192,0.0103,0.0146
+SAN,SCN5A,Na (node-poor test),0.2208,0.7997,-1.852,762,2192,0.0,0.0
+AVN,CACNA1G,Ca target,0.216,0.0681,1.6511,1217,5730,0.0,0.0
+AVN,CACNA1D,Ca target,1.1429,0.12,3.2409,1217,5730,0.0,0.0
+AVN,CACNA1H,Ca target,0.0,0.0005,-0.5836,1217,5730,0.3567,0.3963
+AVN,CACNA1C,Ca target,3.32,4.0747,-0.2955,1217,5730,0.0,0.0
+AVN,KCNH2,K target (LQT),0.1084,0.2043,-0.9078,1217,5730,0.0,0.0
+AVN,KCNQ1,K target,0.8909,0.8695,0.035,1217,5730,0.4332,0.4332
+AVN,KCNA4,K target,0.0269,0.0495,-0.8562,1217,5730,0.0001,0.0001
+AVN,KCNJ5,K target (AF),0.1172,0.1578,-0.426,1217,5730,0.0,0.0
+AVN,KCNJ11,K target (VF),0.0,0.006,-2.8115,1217,5730,0.0031,0.0039
+AVN,SCN5A,Na (node-poor test),0.2552,0.6575,-1.3617,1217,5730,0.0,0.0
