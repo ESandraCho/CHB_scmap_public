@@ -101,3 +101,8 @@ the `config_*.py` modules; the analysis scripts import them and hard-code nothin
   per node). This is stated in the manuscript and in each figure legend.
 - **Interpretive `.md` report summaries** are written to `results/reports/`. They are derived from
   the same tables and are not required to reproduce any figure or number.
+
+## License
+
+Released under the MIT License (see `LICENSE`). When using this code or the derived
+results, please cite the associated manuscript.
